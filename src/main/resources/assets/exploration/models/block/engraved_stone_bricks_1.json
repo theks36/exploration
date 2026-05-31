@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/stone_bricks",
+    "up": "minecraft:block/stone_bricks",
+    "north": "exploration:block/engravedstonebricks2",
+    "east": "minecraft:block/stone_bricks",
+    "south": "minecraft:block/stone_bricks",
+    "west": "minecraft:block/stone_bricks",
+    "particle": "minecraft:block/stone_bricks"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -52,10 +52,10 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "CUSTOM:DiddyBludCT"
       },
       {
-        "value": "CUSTOM:DiddyBludCT"
+        "value": "DECORATIONS"
       }
     ],
     "destroyTool": "axe",
@@ -144,9 +144,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "ClusteredLeakingWoodLogOnBlockRightclicked"
-    },
     "generateFeature": true,
     "restrictionBiomes": [
       {

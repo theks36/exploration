@@ -1,6 +1,7 @@
 package net.theks.exploration.item;
 
-import net.minecraft.world.level.block.Blocks;
+import net.theks.exploration.init.ExplorationModItems;
+
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.*;
@@ -31,12 +32,12 @@ public class DeadMansShovelItem extends ShovelItem {
 
 		@Override
 		public int getEnchantmentValue() {
-			return 2;
+			return 10;
 		}
 
 		@Override
 		public Ingredient getRepairIngredient() {
-			return Ingredient.of(new ItemStack(Blocks.BONE_BLOCK));
+			return Ingredient.of(new ItemStack(ExplorationModItems.ENGRAVED_INGOT.get()));
 		}
 	};
 

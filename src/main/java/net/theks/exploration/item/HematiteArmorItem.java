@@ -36,7 +36,7 @@ public abstract class HematiteArmorItem extends ArmorItem {
 				map.put(ArmorItem.Type.BODY, 6);
 			}), 9, DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("item.armor.equip_generic")), () -> Ingredient.of(new ItemStack(ExplorationModItems.HEMATITE_INGOT.get())),
 					List.of(new ArmorMaterial.Layer(ResourceLocation.parse("exploration:hematite"))), 0.5f, 0f);
-			registerHelper.register(ResourceLocation.parse("exploration:hematite_armor"), armorMaterial);
+			registerHelper.register(ResourceLocation.parse("exploration:hematite"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
 	}

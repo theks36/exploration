@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "exploration:hematite_armor_chestplate"
+      "id": "exploration:hematite_chestplate"
     },
     "title": {
       "translate": "advancements.hematite_armor_a.title"
@@ -21,10 +21,10 @@
         "items": [
           {
             "items": [
-              "exploration:hematite_armor_helmet",
-              "exploration:hematite_armor_chestplate",
-              "exploration:hematite_armor_leggings",
-              "exploration:hematite_armor_boots"
+              "exploration:hematite_helmet",
+              "exploration:hematite_chestplate",
+              "exploration:hematite_leggings",
+              "exploration:hematite_boots"
             ],
             "count": {
               "min": 1,

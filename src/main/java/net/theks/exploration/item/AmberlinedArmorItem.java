@@ -36,7 +36,7 @@ public abstract class AmberlinedArmorItem extends ArmorItem {
 				map.put(ArmorItem.Type.BODY, 7);
 			}), 12, DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("item.armor.equip_generic")), () -> Ingredient.of(new ItemStack(ExplorationModItems.AMBERLINED_INGOT.get())),
 					List.of(new ArmorMaterial.Layer(ResourceLocation.parse("exploration:amberlined"))), 0f, 0f);
-			registerHelper.register(ResourceLocation.parse("exploration:amberlined_armor"), armorMaterial);
+			registerHelper.register(ResourceLocation.parse("exploration:amberlined"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
 	}

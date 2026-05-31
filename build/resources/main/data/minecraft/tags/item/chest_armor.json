@@ -1,9 +1,10 @@
 {
   "replace": false,
   "values": [
-    "exploration:nephrite_armor_chestplate",
-    "exploration:amberlined_armor_chestplate",
-    "exploration:moonite_armor_chestplate",
-    "exploration:hematite_armor_chestplate"
+    "exploration:nephrite_chestplate",
+    "exploration:amberlined_chestplate",
+    "exploration:moonite_chestplate",
+    "exploration:hematite_chestplate",
+    "exploration:engraved_chestplate"
   ]
 }

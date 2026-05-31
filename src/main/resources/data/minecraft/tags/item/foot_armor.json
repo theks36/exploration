@@ -1,10 +1,11 @@
 {
   "replace": false,
   "values": [
-    "exploration:nephrite_armor_boots",
-    "exploration:hematite_armor_boots",
-    "exploration:sticky_amberlined_boots_boots",
-    "exploration:moonite_armor_boots",
-    "exploration:amberlined_armor_boots"
+    "exploration:engraved_boots",
+    "exploration:nephrite_boots",
+    "exploration:hematite_boots",
+    "exploration:sticky_amberlined_boots",
+    "exploration:amberlined_boots",
+    "exploration:moonite_boots"
   ]
 }

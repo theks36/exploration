@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "exploration:blocks/engraved_stone_bricks",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exploration:engraved_stone_bricks"
+        }
+      ]
+    }
+  ]
+}

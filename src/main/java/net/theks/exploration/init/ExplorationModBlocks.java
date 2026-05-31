@@ -117,6 +117,7 @@ public class ExplorationModBlocks {
 	public static final DeferredBlock<Block> UMBRASTONE_STAIRS;
 	public static final DeferredBlock<Block> UMBRASTONE_SLAB;
 	public static final DeferredBlock<Block> UNDEAD_DIRT;
+	public static final DeferredBlock<Block> ENGRAVED_STONE_BRICKS;
 	static {
 		LEAKING_WOOD_LOG = REGISTRY.register("leaking_wood_log", LeakingWoodLogBlock::new);
 		LEAKING_WOOD = REGISTRY.register("leaking_wood", LeakingWoodWoodBlock::new);
@@ -214,6 +215,7 @@ public class ExplorationModBlocks {
 		UMBRASTONE_STAIRS = REGISTRY.register("umbrastone_stairs", UmbrastoneStairsBlock::new);
 		UMBRASTONE_SLAB = REGISTRY.register("umbrastone_slab", UmbrastoneSlabBlock::new);
 		UNDEAD_DIRT = REGISTRY.register("undead_dirt", UndeadDirtBlock::new);
+		ENGRAVED_STONE_BRICKS = REGISTRY.register("engraved_stone_bricks", EngravedStoneBricksBlock::new);
 	}
 
 	// Start of user code block custom blocks

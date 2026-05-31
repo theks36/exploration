@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "exploration:nephrite_armor_chestplate"
+      "id": "exploration:nephrite_chestplate"
     },
     "title": {
       "translate": "advancements.unyielding.title"

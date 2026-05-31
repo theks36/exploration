@@ -1,30 +1,3 @@
-/difficulty normal
-/setblock ~ ~1 ~ minecraft:chest{LootTable:"exploration:chests/mausoleum"} destroy
-/setblock ~ ~ ~ minecraft:chest{LootTable:"exploration:chests/mausoleum"} destroy
-/data merge block ~ ~-1 ~ {LootTable:"exploration:chests/mausoleum"}
-/data merge block ~ ~ ~ {LootTable:"exploration:chests/mausoleum"}
-/locate structure exploration:grya_gen
-/locate structure exploration:grya_mausoleum_1
-/tp @s 432 ~ -192
-/locate structure exploration:grya_mausoleum_2
-/tp @s 320 ~ -192
-/time set midnight
-/gamemode survival
-/time set midnight
-/gamerule doDaylightCycle
-/gamerule doDaylightCycle false
-/time set midnight
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/kill @a
-/kill @e
-/gamemode survival
-/gamemode creative
-/summon minecraft:lightning_bolt
-//summon minecraft:lightning_bolt
-/summon minecraft:lightning_bolt
-/gamemode survival
 /give @s exploration:bone_club
 /tick freeze
 /fill ~ ~ ~ ~5 ~5 ~5 minecraft:structure_void replace #minecraft:air
@@ -48,3 +21,30 @@
 /gamemode creative
 /tp @s 1040 ~ -592
 /gamemode survival
+/locate biome exploration:graveyard
+/tp @s 172 66 263
+/data get block ~ ~ ~ LootTable
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give @s exploration:dead_mans_shovel
+/data merge block ~ ~ ~ {LootTable:"exploration:mausoleum"}
+/locate biome exploration:graveyard
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give @s minecraft:iron_pickaxe
+/give @s exploration:amberlined_pickaxe
+/give @s exploration:dead_mans_sickle
+/locate biome exploration:graveyard
+/tp @s -912 57 492
+/gamemode survival
+/tick rate 200
+/tick rate 20
+/gamemode creative
+/time set midnight
+/gamemode survival
+/gamemode creative
+/time set midnight
+/gamemode survival
+/gamemode creative

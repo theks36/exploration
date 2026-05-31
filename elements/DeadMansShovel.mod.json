@@ -24,7 +24,7 @@
     ],
     "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
+    "enchantability": 10,
     "damageVsEntity": 3.0,
     "usageCount": 250,
     "glowCondition": {
@@ -32,7 +32,7 @@
     },
     "repairItems": [
       {
-        "value": "Blocks.BONE_BLOCK"
+        "value": "CUSTOM:EngravedIngot"
       }
     ],
     "immuneToFire": false,

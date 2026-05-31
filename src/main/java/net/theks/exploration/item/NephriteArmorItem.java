@@ -37,7 +37,7 @@ public abstract class NephriteArmorItem extends ArmorItem {
 				map.put(ArmorItem.Type.BODY, 9);
 			}), 15, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(new ItemStack(ExplorationModItems.NEPHRITE_BAR.get())), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("exploration:nephrite"))), 1f,
 					0.05f);
-			registerHelper.register(ResourceLocation.parse("exploration:nephrite_armor"), armorMaterial);
+			registerHelper.register(ResourceLocation.parse("exploration:nephrite"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
 	}

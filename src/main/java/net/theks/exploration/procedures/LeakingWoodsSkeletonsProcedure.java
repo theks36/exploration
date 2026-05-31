@@ -123,10 +123,10 @@ public class LeakingWoodsSkeletonsProcedure {
 						{
 							Entity _entity = entity;
 							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(2, new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_CHESTPLATE.get()));
+								_player.getInventory().armor.set(2, new ItemStack(ExplorationModItems.AMBERLINED_CHESTPLATE.get()));
 								_player.getInventory().setChanged();
 							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.CHEST, new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_CHESTPLATE.get()));
+								_living.setItemSlot(EquipmentSlot.CHEST, new ItemStack(ExplorationModItems.AMBERLINED_CHESTPLATE.get()));
 							}
 						}
 					} else if (rng <= 0.25) {
@@ -176,10 +176,10 @@ public class LeakingWoodsSkeletonsProcedure {
 						{
 							Entity _entity = entity;
 							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(0, new ItemStack(ExplorationModItems.STICKY_AMBERLINED_BOOTS_BOOTS.get()));
+								_player.getInventory().armor.set(0, new ItemStack(ExplorationModItems.STICKY_AMBERLINED_BOOTS.get()));
 								_player.getInventory().setChanged();
 							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.FEET, new ItemStack(ExplorationModItems.STICKY_AMBERLINED_BOOTS_BOOTS.get()));
+								_living.setItemSlot(EquipmentSlot.FEET, new ItemStack(ExplorationModItems.STICKY_AMBERLINED_BOOTS.get()));
 							}
 						}
 					} else if (rng <= 0.45) {
@@ -248,10 +248,10 @@ public class LeakingWoodsSkeletonsProcedure {
 						{
 							Entity _entity = entity;
 							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(0, new ItemStack(ExplorationModItems.STICKY_AMBERLINED_BOOTS_BOOTS.get()));
+								_player.getInventory().armor.set(0, new ItemStack(ExplorationModItems.STICKY_AMBERLINED_BOOTS.get()));
 								_player.getInventory().setChanged();
 							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.FEET, new ItemStack(ExplorationModItems.STICKY_AMBERLINED_BOOTS_BOOTS.get()));
+								_living.setItemSlot(EquipmentSlot.FEET, new ItemStack(ExplorationModItems.STICKY_AMBERLINED_BOOTS.get()));
 							}
 						}
 					} else if (rng <= 0.7) {
@@ -311,14 +311,14 @@ public class LeakingWoodsSkeletonsProcedure {
 							Entity _entity = entity;
 							if (_entity instanceof Player _player) {
 								_player.getInventory().armor.set(3,
-										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_HELMET.get()), 45,
+										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_HELMET.get()), 45,
 												(true)
 														? world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).holders().map(reference -> (Holder<Enchantment>) reference)
 														: world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).getTag(EnchantmentTags.IN_ENCHANTING_TABLE).get().stream())));
 								_player.getInventory().setChanged();
 							} else if (_entity instanceof LivingEntity _living) {
 								_living.setItemSlot(EquipmentSlot.HEAD,
-										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_HELMET.get()), 45,
+										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_HELMET.get()), 45,
 												(true)
 														? world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).holders().map(reference -> (Holder<Enchantment>) reference)
 														: world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).getTag(EnchantmentTags.IN_ENCHANTING_TABLE).get().stream())));
@@ -328,14 +328,14 @@ public class LeakingWoodsSkeletonsProcedure {
 							Entity _entity = entity;
 							if (_entity instanceof Player _player) {
 								_player.getInventory().armor.set(2,
-										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_CHESTPLATE.get()), 45,
+										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_CHESTPLATE.get()), 45,
 												(true)
 														? world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).holders().map(reference -> (Holder<Enchantment>) reference)
 														: world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).getTag(EnchantmentTags.IN_ENCHANTING_TABLE).get().stream())));
 								_player.getInventory().setChanged();
 							} else if (_entity instanceof LivingEntity _living) {
 								_living.setItemSlot(EquipmentSlot.CHEST,
-										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_CHESTPLATE.get()), 45,
+										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_CHESTPLATE.get()), 45,
 												(true)
 														? world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).holders().map(reference -> (Holder<Enchantment>) reference)
 														: world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).getTag(EnchantmentTags.IN_ENCHANTING_TABLE).get().stream())));
@@ -345,14 +345,14 @@ public class LeakingWoodsSkeletonsProcedure {
 							Entity _entity = entity;
 							if (_entity instanceof Player _player) {
 								_player.getInventory().armor.set(1,
-										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_LEGGINGS.get()), 45,
+										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_LEGGINGS.get()), 45,
 												(true)
 														? world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).holders().map(reference -> (Holder<Enchantment>) reference)
 														: world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).getTag(EnchantmentTags.IN_ENCHANTING_TABLE).get().stream())));
 								_player.getInventory().setChanged();
 							} else if (_entity instanceof LivingEntity _living) {
 								_living.setItemSlot(EquipmentSlot.LEGS,
-										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_LEGGINGS.get()), 45,
+										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_LEGGINGS.get()), 45,
 												(true)
 														? world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).holders().map(reference -> (Holder<Enchantment>) reference)
 														: world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).getTag(EnchantmentTags.IN_ENCHANTING_TABLE).get().stream())));
@@ -362,14 +362,14 @@ public class LeakingWoodsSkeletonsProcedure {
 							Entity _entity = entity;
 							if (_entity instanceof Player _player) {
 								_player.getInventory().armor.set(1,
-										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_BOOTS.get()), 45,
+										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_BOOTS.get()), 45,
 												(true)
 														? world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).holders().map(reference -> (Holder<Enchantment>) reference)
 														: world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).getTag(EnchantmentTags.IN_ENCHANTING_TABLE).get().stream())));
 								_player.getInventory().setChanged();
 							} else if (_entity instanceof LivingEntity _living) {
 								_living.setItemSlot(EquipmentSlot.LEGS,
-										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_BOOTS.get()), 45,
+										(EnchantmentHelper.enchantItem(world.getRandom(), new ItemStack(ExplorationModItems.AMBERLINED_BOOTS.get()), 45,
 												(true)
 														? world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).holders().map(reference -> (Holder<Enchantment>) reference)
 														: world.registryAccess().registryOrThrow(Registries.ENCHANTMENT).getTag(EnchantmentTags.IN_ENCHANTING_TABLE).get().stream())));
@@ -446,10 +446,10 @@ public class LeakingWoodsSkeletonsProcedure {
 						{
 							Entity _entity = entity;
 							if (_entity instanceof Player _player) {
-								_player.getInventory().armor.set(0, new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_BOOTS.get()));
+								_player.getInventory().armor.set(0, new ItemStack(ExplorationModItems.AMBERLINED_BOOTS.get()));
 								_player.getInventory().setChanged();
 							} else if (_entity instanceof LivingEntity _living) {
-								_living.setItemSlot(EquipmentSlot.FEET, new ItemStack(ExplorationModItems.AMBERLINED_ARMOR_BOOTS.get()));
+								_living.setItemSlot(EquipmentSlot.FEET, new ItemStack(ExplorationModItems.AMBERLINED_BOOTS.get()));
 							}
 						}
 					} else if (rng <= 0.45) {

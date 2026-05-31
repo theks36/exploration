@@ -1,9 +1,10 @@
 {
   "replace": false,
   "values": [
-    "exploration:hematite_armor_helmet",
-    "exploration:amberlined_armor_helmet",
-    "exploration:nephrite_armor_helmet",
-    "exploration:moonite_armor_helmet"
+    "exploration:hematite_helmet",
+    "exploration:amberlined_helmet",
+    "exploration:nephrite_helmet",
+    "exploration:moonite_helmet",
+    "exploration:engraved_helmet"
   ]
 }

@@ -36,7 +36,7 @@ public abstract class MooniteArmorItem extends ArmorItem {
 				map.put(ArmorItem.Type.BODY, 5);
 			}), 12, DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("item.armor.equip_diamond")), () -> Ingredient.of(new ItemStack(ExplorationModItems.MOONITE_INGOT.get())),
 					List.of(new ArmorMaterial.Layer(ResourceLocation.parse("exploration:moonite"))), 0.5f, 0.05f);
-			registerHelper.register(ResourceLocation.parse("exploration:moonite_armor"), armorMaterial);
+			registerHelper.register(ResourceLocation.parse("exploration:moonite"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
 	}
@@ -54,8 +54,8 @@ public abstract class MooniteArmorItem extends ArmorItem {
 		@OnlyIn(Dist.CLIENT)
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, list, flag);
-			list.add(Component.translatable("item.exploration.moonite_armor_helmet.description_0"));
-			list.add(Component.translatable("item.exploration.moonite_armor_helmet.description_1"));
+			list.add(Component.translatable("item.exploration.moonite_helmet.description_0"));
+			list.add(Component.translatable("item.exploration.moonite_helmet.description_1"));
 		}
 	}
 
@@ -68,8 +68,8 @@ public abstract class MooniteArmorItem extends ArmorItem {
 		@OnlyIn(Dist.CLIENT)
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, list, flag);
-			list.add(Component.translatable("item.exploration.moonite_armor_chestplate.description_0"));
-			list.add(Component.translatable("item.exploration.moonite_armor_chestplate.description_1"));
+			list.add(Component.translatable("item.exploration.moonite_chestplate.description_0"));
+			list.add(Component.translatable("item.exploration.moonite_chestplate.description_1"));
 		}
 	}
 
@@ -82,8 +82,8 @@ public abstract class MooniteArmorItem extends ArmorItem {
 		@OnlyIn(Dist.CLIENT)
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, list, flag);
-			list.add(Component.translatable("item.exploration.moonite_armor_leggings.description_0"));
-			list.add(Component.translatable("item.exploration.moonite_armor_leggings.description_1"));
+			list.add(Component.translatable("item.exploration.moonite_leggings.description_0"));
+			list.add(Component.translatable("item.exploration.moonite_leggings.description_1"));
 		}
 	}
 
@@ -96,8 +96,8 @@ public abstract class MooniteArmorItem extends ArmorItem {
 		@OnlyIn(Dist.CLIENT)
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, list, flag);
-			list.add(Component.translatable("item.exploration.moonite_armor_boots.description_0"));
-			list.add(Component.translatable("item.exploration.moonite_armor_boots.description_1"));
+			list.add(Component.translatable("item.exploration.moonite_boots.description_0"));
+			list.add(Component.translatable("item.exploration.moonite_boots.description_1"));
 		}
 	}
 }

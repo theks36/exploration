@@ -35,7 +35,7 @@ public class MooniteArmorGravityProcedure {
 		double total_fall_distance_mod = 0;
 		total_gravity_mod = -0.054;
 		total_fall_distance_mod = 7;
-		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == ExplorationModItems.MOONITE_ARMOR_BOOTS.get()) {
+		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == ExplorationModItems.MOONITE_BOOTS.get()) {
 			if (entity instanceof LivingEntity _entity) {
 				AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("exploration:moonitebootsg"), (total_gravity_mod / 4), AttributeModifier.Operation.ADD_VALUE);
 				if (!_entity.getAttribute(Attributes.GRAVITY).hasModifier(modifier.id())) {
@@ -56,7 +56,7 @@ public class MooniteArmorGravityProcedure {
 				_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).removeModifier(ResourceLocation.parse("exploration:moonitebootsfd"));
 			}
 		}
-		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == ExplorationModItems.MOONITE_ARMOR_LEGGINGS.get()) {
+		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == ExplorationModItems.MOONITE_LEGGINGS.get()) {
 			if (entity instanceof LivingEntity _entity) {
 				AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("exploration:mooniteleggingsg"), (total_gravity_mod / 4), AttributeModifier.Operation.ADD_VALUE);
 				if (!_entity.getAttribute(Attributes.GRAVITY).hasModifier(modifier.id())) {
@@ -77,7 +77,7 @@ public class MooniteArmorGravityProcedure {
 				_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).removeModifier(ResourceLocation.parse("exploration:mooniteleggingsfd"));
 			}
 		}
-		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == ExplorationModItems.MOONITE_ARMOR_CHESTPLATE.get()) {
+		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == ExplorationModItems.MOONITE_CHESTPLATE.get()) {
 			if (entity instanceof LivingEntity _entity) {
 				AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("exploration:moonitechestplateg"), (total_gravity_mod / 4), AttributeModifier.Operation.ADD_VALUE);
 				if (!_entity.getAttribute(Attributes.GRAVITY).hasModifier(modifier.id())) {
@@ -98,7 +98,7 @@ public class MooniteArmorGravityProcedure {
 				_entity.getAttribute(Attributes.SAFE_FALL_DISTANCE).removeModifier(ResourceLocation.parse("exploration:moonitechestplatefd"));
 			}
 		}
-		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == ExplorationModItems.MOONITE_ARMOR_HELMET.get()) {
+		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == ExplorationModItems.MOONITE_HELMET.get()) {
 			if (entity instanceof LivingEntity _entity) {
 				AttributeModifier modifier = new AttributeModifier(ResourceLocation.parse("exploration:moonitehelmetg"), (total_gravity_mod / 4), AttributeModifier.Operation.ADD_VALUE);
 				if (!_entity.getAttribute(Attributes.GRAVITY).hasModifier(modifier.id())) {

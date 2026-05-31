@@ -52,10 +52,10 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "CUSTOM:DiddyBludCT"
       },
       {
-        "value": "CUSTOM:DiddyBludCT"
+        "value": "DECORATIONS"
       }
     ],
     "destroyTool": "axe",

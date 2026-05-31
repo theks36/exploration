@@ -1,16 +1,17 @@
 {
   "replace": false,
   "values": [
-    "exploration:nephrite_ore",
+    "exploration:engraved_stone_bricks",
     "exploration:moonstone",
-    "exploration:undead_dirt",
     "exploration:gneiss_gold_ore",
-    "exploration:shale_redstone",
     "exploration:block_of_nephrite",
     "exploration:shale_gold",
-    "exploration:amber_ore",
     "exploration:block_of_moonite",
     "exploration:gneiss_lapis_lazuli_ore",
+    "exploration:nephrite_ore",
+    "exploration:undead_dirt",
+    "exploration:shale_redstone",
+    "exploration:amber_ore",
     "exploration:moonite_ore",
     "exploration:serpentinite_diamond_ore"
   ]

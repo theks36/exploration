@@ -38,7 +38,7 @@ public abstract class StickyAmberlinedBootsItem extends ArmorItem {
 				map.put(ArmorItem.Type.BODY, 7);
 			}), 12, DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("item.armor.equip_generic")), () -> Ingredient.of(new ItemStack(ExplorationModItems.AMBERLINED_INGOT.get())),
 					List.of(new ArmorMaterial.Layer(ResourceLocation.parse("exploration:amberlined"))), 0f, 0.5f);
-			registerHelper.register(ResourceLocation.parse("exploration:sticky_amberlined_boots"), armorMaterial);
+			registerHelper.register(ResourceLocation.parse("exploration:sticky_amberlined"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
 	}

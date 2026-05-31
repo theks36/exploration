@@ -10,7 +10,8 @@
           "block_state": {
             "Name": "exploration:leaking_wood_log",
             "Properties": {
-              "axis": "y"
+              "axis": "y",
+              "clusterization": "0"
             }
           }
         },
