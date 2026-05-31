@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "boat",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:FrozenPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FrozenPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FrozenPlanks"
+      },
+      {
+        "value": "CUSTOM:FrozenPlanks"
+      },
+      {
+        "value": "CUSTOM:FrozenPlanks"
+      },
+      {
+        "value": "CUSTOM:FrozenPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FrozenBoat"
+    },
+    "name": "frozen_boat_recipe",
+    "namespace": "mod"
+  }
+}

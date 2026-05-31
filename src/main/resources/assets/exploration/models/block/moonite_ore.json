@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exploration:block/mooniteore",
+    "particle": "exploration:block/mooniteore"
+  },
+  "render_type": "solid"
+}

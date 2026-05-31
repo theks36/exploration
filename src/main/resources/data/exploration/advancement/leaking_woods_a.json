@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:resin_cluster"
+    },
+    "title": {
+      "translate": "advancements.leaking_woods_a.title"
+    },
+    "description": {
+      "translate": "advancements.leaking_woods_a.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leaking_woods_a_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "exploration:leaking_woods"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "exploration:on_start_game"
+}

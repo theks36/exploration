@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:exploration_achievement_key_icon"
+    },
+    "title": {
+      "translate": "advancements.exploration_a.title"
+    },
+    "description": {
+      "translate": "advancements.exploration_a.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "exploration_a_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "exploration:the_exploration"
+      }
+    }
+  },
+  "parent": "exploration:leaking_woods_a"
+}

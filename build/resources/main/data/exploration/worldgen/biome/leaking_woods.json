@@ -1,0 +1,77 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.7,
+  "effects": {
+    "music": {
+      "sound": "music.creative",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "ash"
+      },
+      "probability": 0.0015
+    },
+    "foliage_color": -798860,
+    "grass_color": -145286,
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "skeleton",
+        "weight": 40,
+        "minCount": 3,
+        "maxCount": 5
+      }
+    ],
+    "creature": [
+      {
+        "type": "mule",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "exploration:leaking_woods_tree",
+      "minecraft:patch_tall_grass",
+      "minecraft:patch_grass_forest",
+      "minecraft:patch_grass_jungle"
+    ],
+    []
+  ]
+}

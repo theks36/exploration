@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "lightlevel_skin=1": {
+      "model": "exploration:block/pulsating_lamp_0"
+    },
+    "lightlevel_skin=2": {
+      "model": "exploration:block/pulsating_lamp_1"
+    },
+    "lightlevel_skin=3": {
+      "model": "exploration:block/pulsating_lamp_2"
+    },
+    "lightlevel_skin=4": {
+      "model": "exploration:block/pulsating_lamp_3"
+    }
+  }
+}

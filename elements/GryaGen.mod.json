@@ -1,0 +1,205 @@
+{
+  "_fv": 85,
+  "_type": "structure",
+  "definition": {
+    "structure": "grya_gen_startblock",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 3,
+    "separation": 1,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Graveyard"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 7,
+    "maxDistanceFromCenter": 116,
+    "jigsawPools": [
+      {
+        "poolName": "path_pool",
+        "fallbackPool": "exploration:grya_gen_path_end",
+        "poolParts": [
+          {
+            "weight": 15,
+            "structure": "grya_gen_path_straight_1",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 2,
+            "structure": "grya_gen_path_turn_right",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 2,
+            "structure": "grya_gen_path_turn_left",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "grya_gen_path_straight_2",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "path_end",
+        "fallbackPool": "minecraft:empty",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "grya_gen_path_end",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "large_plot_pool",
+        "fallbackPool": "exploration:grya_gen_small_plot_pool",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "grya_gen_large_plot_mausoleum1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "grya_gen_large_plot_mausoleum2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "small_plot_pool",
+        "fallbackPool": "minecraft:empty",
+        "poolParts": [
+          {
+            "weight": 10,
+            "structure": "grya_gen_small_plot_empty",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "grya_gen_small_plot_fence1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "grya_gen_small_plot_fence2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 7,
+            "structure": "grya_gen_small_plot_fence3",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 2,
+            "structure": "grya_gen_small_plot_fence4",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 35,
+            "structure": "grya_gen_small_plot_graves1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 35,
+            "structure": "grya_gen_small_plot_graves2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 25,
+            "structure": "grya_gen_small_plot_graves3",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 20,
+            "structure": "grya_gen_small_plot_graves4",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 20,
+            "structure": "grya_gen_small_plot_graves5",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 20,
+            "structure": "grya_gen_small_plot_graves6",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 20,
+            "structure": "grya_gen_small_plot_graves7",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 15,
+            "structure": "grya_gen_small_plot_graves8",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 15,
+            "structure": "grya_gen_small_plot_graves9",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 15,
+            "structure": "grya_gen_small_plot_light1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "grya_gen_small_plot_light2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 15,
+            "structure": "grya_gen_small_plot_statue1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 15,
+            "structure": "grya_gen_small_plot_statue2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

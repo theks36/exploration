@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exploration:block/gneiss",
+    "particle": "exploration:block/gneiss"
+  },
+  "render_type": "solid"
+}

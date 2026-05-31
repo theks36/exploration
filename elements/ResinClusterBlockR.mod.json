@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ResinCluster"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ResinCluster"
+      },
+      {
+        "value": "CUSTOM:ResinCluster"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ResinCluster"
+      },
+      {
+        "value": "CUSTOM:ResinCluster"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ResinClusterBlock"
+    },
+    "name": "resin_cluster_block_r",
+    "namespace": "mod"
+  }
+}

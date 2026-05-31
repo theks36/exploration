@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "exploration:block/umbrastone",
+    "bottom": "exploration:block/umbrastone",
+    "top": "exploration:block/umbrastone",
+    "side": "exploration:block/umbrastone"
+  },
+  "render_type": "solid"
+}

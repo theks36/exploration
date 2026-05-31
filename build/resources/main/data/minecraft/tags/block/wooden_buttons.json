@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:frozen_button",
+    "exploration:leaking_wood_button"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "exploration:block/stripped_frozen_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "exploration:block/stripped_frozen_log"
+    },
+    "axis=z": {
+      "model": "exploration:block/stripped_frozen_log",
+      "x": 90
+    }
+  }
+}

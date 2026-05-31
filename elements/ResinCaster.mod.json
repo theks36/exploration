@@ -1,0 +1,16 @@
+{
+  "_fv": 85,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Resin Caster",
+    "pointOfInterest": {
+      "value": "CUSTOM:SmoothResinBlock"
+    },
+    "actionSound": {
+      "value": "entity.villager.work_weaponsmith"
+    },
+    "hat": "None",
+    "professionTextureFile": "resincaster.png",
+    "zombifiedProfessionTextureFile": "resincaster.png"
+  }
+}

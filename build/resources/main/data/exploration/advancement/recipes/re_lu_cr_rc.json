@@ -1,0 +1,153 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "exploration:re_lu_cr_rc"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ingredient_0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:blue_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:cyan_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_3": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:green_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_4": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:light_blue_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:lime_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_6": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:magenta_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_7": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:orange_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_8": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:pink_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_9": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:purple_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_10": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:red_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_11": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:yellow_luminant_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ingredient_0",
+      "has_ingredient_1",
+      "has_ingredient_2",
+      "has_ingredient_3",
+      "has_ingredient_4",
+      "has_ingredient_5",
+      "has_ingredient_6",
+      "has_ingredient_7",
+      "has_ingredient_8",
+      "has_ingredient_9",
+      "has_ingredient_10",
+      "has_ingredient_11"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "exploration:re_lu_cr_rc"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CobbledShale"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CobbledShale"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CobbledShale"
+      },
+      {
+        "value": "CUSTOM:CobbledShale"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CobbledShale"
+      },
+      {
+        "value": "CUSTOM:CobbledShale"
+      },
+      {
+        "value": "CUSTOM:CobbledShale"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CobbledShaleStairs"
+    },
+    "name": "shale_stairs_r",
+    "namespace": "mod"
+  }
+}

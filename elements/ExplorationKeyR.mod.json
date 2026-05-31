@@ -1,0 +1,59 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ResinCluster"
+      },
+      {
+        "value": "CUSTOM:Amber"
+      },
+      {
+        "value": "CUSTOM:AmberlinedIronIngot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ResinCluster"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AmberlinedIronIngot"
+      },
+      {
+        "value": "CUSTOM:Amber"
+      },
+      {
+        "value": "CUSTOM:AmberlinedIronIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ResinCluster"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TheExploration"
+    },
+    "name": "exploration_key_r",
+    "namespace": "mod"
+  }
+}

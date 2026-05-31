@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:SmoothResinBricks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SmoothResinBricks"
+      },
+      {
+        "value": "CUSTOM:SmoothResinBricks"
+      },
+      {
+        "value": "CUSTOM:SmoothResinBricks"
+      },
+      {
+        "value": "CUSTOM:SmoothResinBricks"
+      },
+      {
+        "value": "CUSTOM:SmoothResinBricks"
+      },
+      {
+        "value": "CUSTOM:SmoothResinBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SmoothResinBrickWall"
+    },
+    "name": "smooth_resin_brick_wall_r",
+    "namespace": "mod"
+  }
+}

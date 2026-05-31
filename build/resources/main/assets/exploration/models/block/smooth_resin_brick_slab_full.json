@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "exploration:block/smoothresinbricks",
+    "bottom": "exploration:block/smoothresinbricks",
+    "top": "exploration:block/smoothresinbricks",
+    "side": "exploration:block/smoothresinbricks"
+  },
+  "render_type": "solid"
+}

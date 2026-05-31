@@ -1,0 +1,28 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, Exploration]",
+      "[, Exploration, Source (Gradle)]",
+      "[, Exploration, Source (Gradle), C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net]",
+      "[, Exploration, Source (Gradle), C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net, C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net\\theks]",
+      "[, Exploration, Source (Gradle), C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net, C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net\\theks, C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net\\theks\\exploration]",
+      "[, Exploration, Source (Gradle), C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net, C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net\\theks, C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net\\theks\\exploration, C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net\\theks\\exploration\\recipe]",
+      "[, Exploration, Source (Gradle), C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net, C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net\\theks, C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net\\theks\\exploration, C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net\\theks\\exploration\\recipe, C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\src\\main\\java\\net\\theks\\exploration\\recipe\\brewing]"
+    ]
+  },
+  "leftDockState": {
+    "dockSizes": {
+      "project_browser": 304
+    }
+  },
+  "bottomDockState": {
+    "dockSizes": {
+      "console": 284,
+      "code_viewer": 300,
+      "debugger": 300
+    }
+  }
+}

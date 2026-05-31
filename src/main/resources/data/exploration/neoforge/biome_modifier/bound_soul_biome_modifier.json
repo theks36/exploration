@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "exploration:forest_of_eternal_winter",
+  "spawners": {
+    "type": "exploration:bound_soul",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

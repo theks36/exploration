@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exploration:block/yellowluminantcrystal",
+    "particle": "exploration:block/yellowluminantcrystal"
+  },
+  "render_type": "solid"
+}

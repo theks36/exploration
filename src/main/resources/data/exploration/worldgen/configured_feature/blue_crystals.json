@@ -1,0 +1,59 @@
+{
+  "type": "exploration:blue_crystals",
+  "config": {
+    "default": {
+      "feature": {
+        "type": "minecraft:forest_rock",
+        "config": {
+          "state": {
+            "Name": "exploration:blue_luminant_crystal"
+          }
+        }
+      },
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": {
+          "feature": {
+            "type": "minecraft:block_pile",
+            "config": {
+              "state_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "exploration:blue_luminant_crystal"
+                }
+              }
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.05,
+        "feature": {
+          "feature": {
+            "type": "minecraft:ore",
+            "config": {
+              "size": 9,
+              "discard_chance_on_air_exposure": 0,
+              "targets": [
+                {
+                  "target": {
+                    "predicate_type": "block_match",
+                    "block": "exploration:umbrastone"
+                  },
+                  "state": {
+                    "Name": "exploration:blue_luminant_crystal"
+                  }
+                }
+              ]
+            }
+          },
+          "placement": []
+        }
+      }
+    ]
+  }
+}

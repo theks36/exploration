@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exploration:block/shaleredstonetb",
+    "up": "exploration:block/shaleredstonetb",
+    "north": "exploration:block/shaleredstone",
+    "east": "exploration:block/shaleredstone",
+    "south": "exploration:block/shaleredstone",
+    "west": "exploration:block/shaleredstone",
+    "particle": "exploration:block/shaleredstonetb"
+  },
+  "render_type": "solid"
+}

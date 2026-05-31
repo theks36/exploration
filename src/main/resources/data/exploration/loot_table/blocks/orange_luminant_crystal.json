@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "exploration:blocks/orange_luminant_crystal",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exploration:crystal_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

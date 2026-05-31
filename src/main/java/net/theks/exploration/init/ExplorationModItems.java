@@ -1,0 +1,359 @@
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.theks.exploration.init;
+
+import net.theks.exploration.item.*;
+import net.theks.exploration.ExplorationMod;
+
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
+
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.*;
+
+public class ExplorationModItems {
+	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(ExplorationMod.MODID);
+	public static final DeferredItem<Item> RESIN_CLUSTER;
+	public static final DeferredItem<Item> RESIN_MUSH;
+	public static final DeferredItem<Item> CURED_RESIN_MUSH;
+	public static final DeferredItem<Item> LEAKING_WOOD_LOG;
+	public static final DeferredItem<Item> LEAKING_WOOD;
+	public static final DeferredItem<Item> STRIPPED_LEAKING_WOOD_LOG;
+	public static final DeferredItem<Item> STRIPPED_LEAKING_WOOD_WOOD;
+	public static final DeferredItem<Item> LEAKING_WOOD_PLANKS;
+	public static final DeferredItem<Item> LEAKING_WOOD_LEAVES;
+	public static final DeferredItem<Item> LEAKING_WOOD_STAIRS;
+	public static final DeferredItem<Item> LEAKING_WOOD_SLAB;
+	public static final DeferredItem<Item> LEAKING_WOOD_FENCE;
+	public static final DeferredItem<Item> LEAKING_WOOD_FENCE_GATE;
+	public static final DeferredItem<Item> LEAKING_WOOD_DOOR;
+	public static final DeferredItem<Item> LEAKING_WOOD_TRAPDOOR;
+	public static final DeferredItem<Item> LEAKING_WOOD_PRESSURE_PLATE;
+	public static final DeferredItem<Item> LEAKING_WOOD_BUTTON;
+	public static final DeferredItem<Item> LEAKING_WOOD_SIGN;
+	public static final DeferredItem<Item> LEAKING_WOOD_HANGING_SIGN;
+	public static final DeferredItem<Item> LEAKING_WOOD_BOAT;
+	public static final DeferredItem<Item> LEAKING_WOOD_CHEST_BOAT;
+	public static final DeferredItem<Item> CLUSTERED_LEAKING_WOOD_LOG;
+	public static final DeferredItem<Item> RESIN_CLUSTER_BLOCK;
+	public static final DeferredItem<Item> SMOOTH_RESIN_BLOCK;
+	public static final DeferredItem<Item> SMOOTH_RESIN_STAIRS;
+	public static final DeferredItem<Item> RESIN_DROPLET_SPAWN_EGG;
+	public static final DeferredItem<Item> SHALE;
+	public static final DeferredItem<Item> COBBLED_SHALE;
+	public static final DeferredItem<Item> AMBER_ORE;
+	public static final DeferredItem<Item> AMBER;
+	public static final DeferredItem<Item> COBBLED_SHALE_STAIRS;
+	public static final DeferredItem<Item> COBBLED_SHALE_SLAB;
+	public static final DeferredItem<Item> AMBERLINED_INGOT;
+	public static final DeferredItem<Item> AMBERLINED_PICKAXE;
+	public static final DeferredItem<Item> AMBERLINED_AXE;
+	public static final DeferredItem<Item> AMBERLINED_SWORD;
+	public static final DeferredItem<Item> AMBERLINED_SHOVEL;
+	public static final DeferredItem<Item> AMBERLINED_HOE;
+	public static final DeferredItem<Item> SHALE_IRON;
+	public static final DeferredItem<Item> SHALE_GOLD;
+	public static final DeferredItem<Item> SHALE_REDSTONE;
+	public static final DeferredItem<Item> SHALE_COAL;
+	public static final DeferredItem<Item> AMBERLINED_ARMOR_HELMET;
+	public static final DeferredItem<Item> AMBERLINED_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> AMBERLINED_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> AMBERLINED_ARMOR_BOOTS;
+	public static final DeferredItem<Item> STICKY_AMBERLINED_BOOTS_BOOTS;
+	public static final DeferredItem<Item> RESIN_GLUE;
+	public static final DeferredItem<Item> RESIN_MUSHROOM;
+	public static final DeferredItem<Item> SMOOTH_RESIN_BRICKS;
+	public static final DeferredItem<Item> SMOOTH_RESIN_BRICK_SLAB;
+	public static final DeferredItem<Item> CHISELED_SMOOTH_RESIN_BRICKS;
+	public static final DeferredItem<Item> SMOOTH_RESIN_BRICK_WALL;
+	public static final DeferredItem<Item> SERPENTINITE;
+	public static final DeferredItem<Item> COBBLED_SERPENTINITE;
+	public static final DeferredItem<Item> NEPHRITE_ORE;
+	public static final DeferredItem<Item> POLISHED_SERPENTINITE;
+	public static final DeferredItem<Item> NEPHRITE;
+	public static final DeferredItem<Item> HUSH_PUPPY_SPAWN_EGG;
+	public static final DeferredItem<Item> THE_EXPLORATION;
+	public static final DeferredItem<Item> FROZEN_LOG;
+	public static final DeferredItem<Item> FROZEN_WOOD;
+	public static final DeferredItem<Item> STRIPPED_FROZEN_LOG;
+	public static final DeferredItem<Item> STRIPPED_FROZEN_WOOD;
+	public static final DeferredItem<Item> FROZEN_PLANKS;
+	public static final DeferredItem<Item> FROZEN_LEAVES;
+	public static final DeferredItem<Item> FROZEN_STAIRS;
+	public static final DeferredItem<Item> FROZEN_SLAB;
+	public static final DeferredItem<Item> FROZEN_FENCE;
+	public static final DeferredItem<Item> FROZEN_FENCE_GATE;
+	public static final DeferredItem<Item> FROZEN_DOOR;
+	public static final DeferredItem<Item> FROZEN_TRAPDOOR;
+	public static final DeferredItem<Item> FROZEN_PRESSURE_PLATE;
+	public static final DeferredItem<Item> FROZEN_BUTTON;
+	public static final DeferredItem<Item> FROZEN_SIGN;
+	public static final DeferredItem<Item> FROZEN_HANGING_SIGN;
+	public static final DeferredItem<Item> FROZEN_BOAT;
+	public static final DeferredItem<Item> FROZEN_CHEST_BOAT;
+	public static final DeferredItem<Item> NEPHRITE_PICKAXE;
+	public static final DeferredItem<Item> NEPHRITE_BAR;
+	public static final DeferredItem<Item> SERPENTINITE_BRICKS;
+	public static final DeferredItem<Item> SERPENTINITE_BRICK_STAIRS;
+	public static final DeferredItem<Item> SERPENTINITE_BRICKS_SLAB;
+	public static final DeferredItem<Item> SERPENTINITE_PRESSURE_PLATE;
+	public static final DeferredItem<Item> NEPHRITE_AXE;
+	public static final DeferredItem<Item> NEPHRITE_SWORD;
+	public static final DeferredItem<Item> NEPHRITE_SHORT_SWORD;
+	public static final DeferredItem<Item> NEPHRITE_ARMOR_HELMET;
+	public static final DeferredItem<Item> NEPHRITE_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> NEPHRITE_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> NEPHRITE_ARMOR_BOOTS;
+	public static final DeferredItem<Item> BOUND_SOUL_SPAWN_EGG;
+	public static final DeferredItem<Item> SERPENTINITE_COAL_ORE;
+	public static final DeferredItem<Item> SERPENTINITE_DIAMOND_ORE;
+	public static final DeferredItem<Item> EXPLORATION_ACHIEVEMENT_KEY_ICON;
+	public static final DeferredItem<Item> FOEW_ACHIEVEMENT_ICON;
+	public static final DeferredItem<Item> NEPHRITE_SHOVEL;
+	public static final DeferredItem<Item> NEPHRITE_HOE;
+	public static final DeferredItem<Item> MAMA_SPIDER_SPAWN_EGG;
+	public static final DeferredItem<Item> GNEISS;
+	public static final DeferredItem<Item> HEMATITE_ORE;
+	public static final DeferredItem<Item> RAW_HEMATITE;
+	public static final DeferredItem<Item> COBBLED_GNEISS;
+	public static final DeferredItem<Item> GNEISS_COAL_ORE;
+	public static final DeferredItem<Item> GNEISS_COPPER_ORE;
+	public static final DeferredItem<Item> GNEISS_IRON_ORE;
+	public static final DeferredItem<Item> HEMATITE_ARMOR_HELMET;
+	public static final DeferredItem<Item> HEMATITE_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> HEMATITE_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> HEMATITE_ARMOR_BOOTS;
+	public static final DeferredItem<Item> SERPENTINITE_IRON_ORE;
+	public static final DeferredItem<Item> BLOCK_OF_NEPHRITE;
+	public static final DeferredItem<Item> GNEISS_LAPIS_LAZULI_ORE;
+	public static final DeferredItem<Item> GNEISS_GOLD_ORE;
+	public static final DeferredItem<Item> MOONSTONE;
+	public static final DeferredItem<Item> MOONITE_ORE;
+	public static final DeferredItem<Item> MOONITE;
+	public static final DeferredItem<Item> MOONITE_INGOT;
+	public static final DeferredItem<Item> HEMATITE_INGOT;
+	public static final DeferredItem<Item> MOONITE_ARMOR_HELMET;
+	public static final DeferredItem<Item> MOONITE_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> MOONITE_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> MOONITE_ARMOR_BOOTS;
+	public static final DeferredItem<Item> HEMATITE_PICKAXE;
+	public static final DeferredItem<Item> HEMATITE_AXE;
+	public static final DeferredItem<Item> HEMATITE_SWORD;
+	public static final DeferredItem<Item> HEMATITE_SHOVEL;
+	public static final DeferredItem<Item> HEMATITE_HOE;
+	public static final DeferredItem<Item> BLOCK_OF_MOONITE;
+	public static final DeferredItem<Item> CRYSTAL_SHARD;
+	public static final DeferredItem<Item> LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> BLUE_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> CYAN_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> GREEN_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> LIGHT_BLUE_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> LIME_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> MAGENTA_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> ORANGE_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> PINK_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> PURPLE_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> RED_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> YELLOW_LUMINANT_CRYSTAL;
+	public static final DeferredItem<Item> UMBRASTONE;
+	public static final DeferredItem<Item> CRYSTALIZED_UMBRASTONE;
+	public static final DeferredItem<Item> PULSATING_LAMP;
+	public static final DeferredItem<Item> UMBRASTONE_STAIRS;
+	public static final DeferredItem<Item> UMBRASTONE_SLAB;
+	public static final DeferredItem<Item> UNDEAD_DIRT;
+	public static final DeferredItem<Item> BONE_CLUB;
+	public static final DeferredItem<Item> CRYSTALIZED_ZOMBIE_SPAWN_EGG;
+	public static final DeferredItem<Item> JACKO_SPAWN_EGG;
+	public static final DeferredItem<Item> DEAD_MANS_SHOVEL;
+	static {
+		RESIN_CLUSTER = REGISTRY.register("resin_cluster", ResinClusterItem::new);
+		RESIN_MUSH = REGISTRY.register("resin_mush", ResinMushItem::new);
+		CURED_RESIN_MUSH = REGISTRY.register("cured_resin_mush", CuredResinMushItem::new);
+		LEAKING_WOOD_LOG = block(ExplorationModBlocks.LEAKING_WOOD_LOG);
+		LEAKING_WOOD = block(ExplorationModBlocks.LEAKING_WOOD);
+		STRIPPED_LEAKING_WOOD_LOG = block(ExplorationModBlocks.STRIPPED_LEAKING_WOOD_LOG);
+		STRIPPED_LEAKING_WOOD_WOOD = block(ExplorationModBlocks.STRIPPED_LEAKING_WOOD_WOOD);
+		LEAKING_WOOD_PLANKS = block(ExplorationModBlocks.LEAKING_WOOD_PLANKS);
+		LEAKING_WOOD_LEAVES = block(ExplorationModBlocks.LEAKING_WOOD_LEAVES);
+		LEAKING_WOOD_STAIRS = block(ExplorationModBlocks.LEAKING_WOOD_STAIRS);
+		LEAKING_WOOD_SLAB = block(ExplorationModBlocks.LEAKING_WOOD_SLAB);
+		LEAKING_WOOD_FENCE = block(ExplorationModBlocks.LEAKING_WOOD_FENCE);
+		LEAKING_WOOD_FENCE_GATE = block(ExplorationModBlocks.LEAKING_WOOD_FENCE_GATE);
+		LEAKING_WOOD_DOOR = doubleBlock(ExplorationModBlocks.LEAKING_WOOD_DOOR);
+		LEAKING_WOOD_TRAPDOOR = block(ExplorationModBlocks.LEAKING_WOOD_TRAPDOOR);
+		LEAKING_WOOD_PRESSURE_PLATE = block(ExplorationModBlocks.LEAKING_WOOD_PRESSURE_PLATE);
+		LEAKING_WOOD_BUTTON = block(ExplorationModBlocks.LEAKING_WOOD_BUTTON);
+		LEAKING_WOOD_SIGN = signBlock(ExplorationModBlocks.LEAKING_WOOD_SIGN, ExplorationModBlocks.LEAKING_WOOD_WALL_SIGN, new Item.Properties().stacksTo(16));
+		LEAKING_WOOD_HANGING_SIGN = hangingSignBlock(ExplorationModBlocks.LEAKING_WOOD_HANGING_SIGN, ExplorationModBlocks.LEAKING_WOOD_WALL_HANGING_SIGN, new Item.Properties().stacksTo(16));
+		LEAKING_WOOD_BOAT = REGISTRY.register("leaking_wood_boat", () -> new BoatItem(false, ExplorationModBoatTypes.LEAKING_WOOD_BOAT_TYPE.getValue(), new Item.Properties().stacksTo(1)));
+		LEAKING_WOOD_CHEST_BOAT = REGISTRY.register("leaking_wood_chest_boat", () -> new BoatItem(true, ExplorationModBoatTypes.LEAKING_WOOD_CHEST_BOAT_TYPE.getValue(), new Item.Properties().stacksTo(1)));
+		CLUSTERED_LEAKING_WOOD_LOG = block(ExplorationModBlocks.CLUSTERED_LEAKING_WOOD_LOG);
+		RESIN_CLUSTER_BLOCK = block(ExplorationModBlocks.RESIN_CLUSTER_BLOCK);
+		SMOOTH_RESIN_BLOCK = block(ExplorationModBlocks.SMOOTH_RESIN_BLOCK);
+		SMOOTH_RESIN_STAIRS = block(ExplorationModBlocks.SMOOTH_RESIN_STAIRS);
+		RESIN_DROPLET_SPAWN_EGG = REGISTRY.register("resin_droplet_spawn_egg", () -> new DeferredSpawnEggItem(ExplorationModEntities.RESIN_DROPLET, -3381760, -13261, new Item.Properties()));
+		SHALE = block(ExplorationModBlocks.SHALE);
+		COBBLED_SHALE = block(ExplorationModBlocks.COBBLED_SHALE);
+		AMBER_ORE = block(ExplorationModBlocks.AMBER_ORE);
+		AMBER = REGISTRY.register("amber", AmberItem::new);
+		COBBLED_SHALE_STAIRS = block(ExplorationModBlocks.COBBLED_SHALE_STAIRS);
+		COBBLED_SHALE_SLAB = block(ExplorationModBlocks.COBBLED_SHALE_SLAB);
+		AMBERLINED_INGOT = REGISTRY.register("amberlined_ingot", AmberlinedIronIngotItem::new);
+		AMBERLINED_PICKAXE = REGISTRY.register("amberlined_pickaxe", AmberlinedPickaxeItem::new);
+		AMBERLINED_AXE = REGISTRY.register("amberlined_axe", AmberlinedAxeItem::new);
+		AMBERLINED_SWORD = REGISTRY.register("amberlined_sword", AmberlinedSwordItem::new);
+		AMBERLINED_SHOVEL = REGISTRY.register("amberlined_shovel", AmberlinedShovelItem::new);
+		AMBERLINED_HOE = REGISTRY.register("amberlined_hoe", AmberlinedHoeItem::new);
+		SHALE_IRON = block(ExplorationModBlocks.SHALE_IRON);
+		SHALE_GOLD = block(ExplorationModBlocks.SHALE_GOLD);
+		SHALE_REDSTONE = block(ExplorationModBlocks.SHALE_REDSTONE);
+		SHALE_COAL = block(ExplorationModBlocks.SHALE_COAL);
+		AMBERLINED_ARMOR_HELMET = REGISTRY.register("amberlined_armor_helmet", AmberlinedArmorItem.Helmet::new);
+		AMBERLINED_ARMOR_CHESTPLATE = REGISTRY.register("amberlined_armor_chestplate", AmberlinedArmorItem.Chestplate::new);
+		AMBERLINED_ARMOR_LEGGINGS = REGISTRY.register("amberlined_armor_leggings", AmberlinedArmorItem.Leggings::new);
+		AMBERLINED_ARMOR_BOOTS = REGISTRY.register("amberlined_armor_boots", AmberlinedArmorItem.Boots::new);
+		STICKY_AMBERLINED_BOOTS_BOOTS = REGISTRY.register("sticky_amberlined_boots_boots", StickyAmberlinedBootsItem.Boots::new);
+		RESIN_GLUE = REGISTRY.register("resin_glue", ResinGlueItem::new);
+		RESIN_MUSHROOM = block(ExplorationModBlocks.RESIN_MUSHROOM);
+		SMOOTH_RESIN_BRICKS = block(ExplorationModBlocks.SMOOTH_RESIN_BRICKS);
+		SMOOTH_RESIN_BRICK_SLAB = block(ExplorationModBlocks.SMOOTH_RESIN_BRICK_SLAB);
+		CHISELED_SMOOTH_RESIN_BRICKS = block(ExplorationModBlocks.CHISELED_SMOOTH_RESIN_BRICKS);
+		SMOOTH_RESIN_BRICK_WALL = block(ExplorationModBlocks.SMOOTH_RESIN_BRICK_WALL);
+		SERPENTINITE = block(ExplorationModBlocks.SERPENTINITE);
+		COBBLED_SERPENTINITE = block(ExplorationModBlocks.COBBLED_SERPENTINITE);
+		NEPHRITE_ORE = block(ExplorationModBlocks.NEPHRITE_ORE);
+		POLISHED_SERPENTINITE = block(ExplorationModBlocks.POLISHED_SERPENTINITE);
+		NEPHRITE = REGISTRY.register("nephrite", NephriteItem::new);
+		HUSH_PUPPY_SPAWN_EGG = REGISTRY.register("hush_puppy_spawn_egg", () -> new DeferredSpawnEggItem(ExplorationModEntities.HUSH_PUPPY, -3355444, -1, new Item.Properties()));
+		THE_EXPLORATION = REGISTRY.register("the_exploration", TheExplorationItem::new);
+		FROZEN_LOG = block(ExplorationModBlocks.FROZEN_LOG);
+		FROZEN_WOOD = block(ExplorationModBlocks.FROZEN_WOOD);
+		STRIPPED_FROZEN_LOG = block(ExplorationModBlocks.STRIPPED_FROZEN_LOG);
+		STRIPPED_FROZEN_WOOD = block(ExplorationModBlocks.STRIPPED_FROZEN_WOOD);
+		FROZEN_PLANKS = block(ExplorationModBlocks.FROZEN_PLANKS);
+		FROZEN_LEAVES = block(ExplorationModBlocks.FROZEN_LEAVES);
+		FROZEN_STAIRS = block(ExplorationModBlocks.FROZEN_STAIRS);
+		FROZEN_SLAB = block(ExplorationModBlocks.FROZEN_SLAB);
+		FROZEN_FENCE = block(ExplorationModBlocks.FROZEN_FENCE);
+		FROZEN_FENCE_GATE = block(ExplorationModBlocks.FROZEN_FENCE_GATE);
+		FROZEN_DOOR = doubleBlock(ExplorationModBlocks.FROZEN_DOOR);
+		FROZEN_TRAPDOOR = block(ExplorationModBlocks.FROZEN_TRAPDOOR);
+		FROZEN_PRESSURE_PLATE = block(ExplorationModBlocks.FROZEN_PRESSURE_PLATE);
+		FROZEN_BUTTON = block(ExplorationModBlocks.FROZEN_BUTTON);
+		FROZEN_SIGN = signBlock(ExplorationModBlocks.FROZEN_SIGN, ExplorationModBlocks.FROZEN_WALL_SIGN, new Item.Properties().stacksTo(16));
+		FROZEN_HANGING_SIGN = hangingSignBlock(ExplorationModBlocks.FROZEN_HANGING_SIGN, ExplorationModBlocks.FROZEN_WALL_HANGING_SIGN, new Item.Properties().stacksTo(16));
+		FROZEN_BOAT = REGISTRY.register("frozen_boat", () -> new BoatItem(false, ExplorationModBoatTypes.FROZEN_BOAT_TYPE.getValue(), new Item.Properties().stacksTo(1)));
+		FROZEN_CHEST_BOAT = REGISTRY.register("frozen_chest_boat", () -> new BoatItem(true, ExplorationModBoatTypes.FROZEN_CHEST_BOAT_TYPE.getValue(), new Item.Properties().stacksTo(1)));
+		NEPHRITE_PICKAXE = REGISTRY.register("nephrite_pickaxe", NephritePickaxeItem::new);
+		NEPHRITE_BAR = REGISTRY.register("nephrite_bar", NephriteBarItem::new);
+		SERPENTINITE_BRICKS = block(ExplorationModBlocks.SERPENTINITE_BRICKS);
+		SERPENTINITE_BRICK_STAIRS = block(ExplorationModBlocks.SERPENTINITE_BRICK_STAIRS);
+		SERPENTINITE_BRICKS_SLAB = block(ExplorationModBlocks.SERPENTINITE_BRICKS_SLAB);
+		SERPENTINITE_PRESSURE_PLATE = block(ExplorationModBlocks.SERPENTINITE_PRESSURE_PLATE);
+		NEPHRITE_AXE = REGISTRY.register("nephrite_axe", NephriteAxeItem::new);
+		NEPHRITE_SWORD = REGISTRY.register("nephrite_sword", NephriteSwordItem::new);
+		NEPHRITE_SHORT_SWORD = REGISTRY.register("nephrite_short_sword", NephriteShortSwordItem::new);
+		NEPHRITE_ARMOR_HELMET = REGISTRY.register("nephrite_armor_helmet", NephriteArmorItem.Helmet::new);
+		NEPHRITE_ARMOR_CHESTPLATE = REGISTRY.register("nephrite_armor_chestplate", NephriteArmorItem.Chestplate::new);
+		NEPHRITE_ARMOR_LEGGINGS = REGISTRY.register("nephrite_armor_leggings", NephriteArmorItem.Leggings::new);
+		NEPHRITE_ARMOR_BOOTS = REGISTRY.register("nephrite_armor_boots", NephriteArmorItem.Boots::new);
+		BOUND_SOUL_SPAWN_EGG = REGISTRY.register("bound_soul_spawn_egg", () -> new DeferredSpawnEggItem(ExplorationModEntities.BOUND_SOUL, -1, -1, new Item.Properties()));
+		SERPENTINITE_COAL_ORE = block(ExplorationModBlocks.SERPENTINITE_COAL_ORE);
+		SERPENTINITE_DIAMOND_ORE = block(ExplorationModBlocks.SERPENTINITE_DIAMOND_ORE);
+		EXPLORATION_ACHIEVEMENT_KEY_ICON = REGISTRY.register("exploration_achievement_key_icon", ExplorationAchievementKeyIconItem::new);
+		FOEW_ACHIEVEMENT_ICON = REGISTRY.register("foew_achievement_icon", FoewAchievementIconItem::new);
+		NEPHRITE_SHOVEL = REGISTRY.register("nephrite_shovel", NephriteShovelItem::new);
+		NEPHRITE_HOE = REGISTRY.register("nephrite_hoe", NephriteHoeItem::new);
+		MAMA_SPIDER_SPAWN_EGG = REGISTRY.register("mama_spider_spawn_egg", () -> new DeferredSpawnEggItem(ExplorationModEntities.MAMA_SPIDER, -13421773, -6750208, new Item.Properties()));
+		GNEISS = block(ExplorationModBlocks.GNEISS);
+		HEMATITE_ORE = block(ExplorationModBlocks.HEMATITE_ORE);
+		RAW_HEMATITE = REGISTRY.register("raw_hematite", RawHematiteItem::new);
+		COBBLED_GNEISS = block(ExplorationModBlocks.COBBLED_GNEISS);
+		GNEISS_COAL_ORE = block(ExplorationModBlocks.GNEISS_COAL_ORE);
+		GNEISS_COPPER_ORE = block(ExplorationModBlocks.GNEISS_COPPER_ORE);
+		GNEISS_IRON_ORE = block(ExplorationModBlocks.GNEISS_IRON_ORE);
+		HEMATITE_ARMOR_HELMET = REGISTRY.register("hematite_armor_helmet", HematiteArmorItem.Helmet::new);
+		HEMATITE_ARMOR_CHESTPLATE = REGISTRY.register("hematite_armor_chestplate", HematiteArmorItem.Chestplate::new);
+		HEMATITE_ARMOR_LEGGINGS = REGISTRY.register("hematite_armor_leggings", HematiteArmorItem.Leggings::new);
+		HEMATITE_ARMOR_BOOTS = REGISTRY.register("hematite_armor_boots", HematiteArmorItem.Boots::new);
+		SERPENTINITE_IRON_ORE = block(ExplorationModBlocks.SERPENTINITE_IRON_ORE);
+		BLOCK_OF_NEPHRITE = block(ExplorationModBlocks.BLOCK_OF_NEPHRITE);
+		GNEISS_LAPIS_LAZULI_ORE = block(ExplorationModBlocks.GNEISS_LAPIS_LAZULI_ORE);
+		GNEISS_GOLD_ORE = block(ExplorationModBlocks.GNEISS_GOLD_ORE);
+		MOONSTONE = block(ExplorationModBlocks.MOONSTONE, new Item.Properties().fireResistant());
+		MOONITE_ORE = block(ExplorationModBlocks.MOONITE_ORE, new Item.Properties().fireResistant());
+		MOONITE = REGISTRY.register("moonite", MooniteItem::new);
+		MOONITE_INGOT = REGISTRY.register("moonite_ingot", MooniteIngotItem::new);
+		HEMATITE_INGOT = REGISTRY.register("hematite_ingot", HematiteIngotItem::new);
+		MOONITE_ARMOR_HELMET = REGISTRY.register("moonite_armor_helmet", MooniteArmorItem.Helmet::new);
+		MOONITE_ARMOR_CHESTPLATE = REGISTRY.register("moonite_armor_chestplate", MooniteArmorItem.Chestplate::new);
+		MOONITE_ARMOR_LEGGINGS = REGISTRY.register("moonite_armor_leggings", MooniteArmorItem.Leggings::new);
+		MOONITE_ARMOR_BOOTS = REGISTRY.register("moonite_armor_boots", MooniteArmorItem.Boots::new);
+		HEMATITE_PICKAXE = REGISTRY.register("hematite_pickaxe", HematitePickaxeItem::new);
+		HEMATITE_AXE = REGISTRY.register("hematite_axe", HematiteAxeItem::new);
+		HEMATITE_SWORD = REGISTRY.register("hematite_sword", HematiteSwordItem::new);
+		HEMATITE_SHOVEL = REGISTRY.register("hematite_shovel", HematiteShovelItem::new);
+		HEMATITE_HOE = REGISTRY.register("hematite_hoe", HematiteHoeItem::new);
+		BLOCK_OF_MOONITE = block(ExplorationModBlocks.BLOCK_OF_MOONITE, new Item.Properties().rarity(Rarity.RARE).fireResistant());
+		CRYSTAL_SHARD = REGISTRY.register("crystal_shard", CrystalShardItem::new);
+		LUMINANT_CRYSTAL = block(ExplorationModBlocks.LUMINANT_CRYSTAL);
+		BLUE_LUMINANT_CRYSTAL = block(ExplorationModBlocks.BLUE_LUMINANT_CRYSTAL);
+		CYAN_LUMINANT_CRYSTAL = block(ExplorationModBlocks.CYAN_LUMINANT_CRYSTAL);
+		GREEN_LUMINANT_CRYSTAL = block(ExplorationModBlocks.GREEN_LUMINANT_CRYSTAL);
+		LIGHT_BLUE_LUMINANT_CRYSTAL = block(ExplorationModBlocks.LIGHT_BLUE_LUMINANT_CRYSTAL);
+		LIME_LUMINANT_CRYSTAL = block(ExplorationModBlocks.LIME_LUMINANT_CRYSTAL);
+		MAGENTA_LUMINANT_CRYSTAL = block(ExplorationModBlocks.MAGENTA_LUMINANT_CRYSTAL);
+		ORANGE_LUMINANT_CRYSTAL = block(ExplorationModBlocks.ORANGE_LUMINANT_CRYSTAL);
+		PINK_LUMINANT_CRYSTAL = block(ExplorationModBlocks.PINK_LUMINANT_CRYSTAL);
+		PURPLE_LUMINANT_CRYSTAL = block(ExplorationModBlocks.PURPLE_LUMINANT_CRYSTAL);
+		RED_LUMINANT_CRYSTAL = block(ExplorationModBlocks.RED_LUMINANT_CRYSTAL);
+		YELLOW_LUMINANT_CRYSTAL = block(ExplorationModBlocks.YELLOW_LUMINANT_CRYSTAL);
+		UMBRASTONE = block(ExplorationModBlocks.UMBRASTONE);
+		CRYSTALIZED_UMBRASTONE = block(ExplorationModBlocks.CRYSTALIZED_UMBRASTONE);
+		PULSATING_LAMP = block(ExplorationModBlocks.PULSATING_LAMP);
+		UMBRASTONE_STAIRS = block(ExplorationModBlocks.UMBRASTONE_STAIRS);
+		UMBRASTONE_SLAB = block(ExplorationModBlocks.UMBRASTONE_SLAB);
+		UNDEAD_DIRT = block(ExplorationModBlocks.UNDEAD_DIRT, new Item.Properties().rarity(Rarity.UNCOMMON));
+		BONE_CLUB = REGISTRY.register("bone_club", BoneClubItem::new);
+		CRYSTALIZED_ZOMBIE_SPAWN_EGG = REGISTRY.register("crystalized_zombie_spawn_egg", () -> new DeferredSpawnEggItem(ExplorationModEntities.CRYSTALIZED_ZOMBIE, -13421773, -1, new Item.Properties()));
+		JACKO_SPAWN_EGG = REGISTRY.register("jacko_spawn_egg", () -> new DeferredSpawnEggItem(ExplorationModEntities.JACKO, -3355444, -26368, new Item.Properties()));
+		DEAD_MANS_SHOVEL = REGISTRY.register("dead_mans_shovel", DeadMansShovelItem::new);
+	}
+
+	// Start of user code block custom items
+	// End of user code block custom items
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
+		return block(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), properties));
+	}
+
+	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
+		return signBlock(block, wallBlock, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new SignItem(properties, block.get(), wallBlock.get()));
+	}
+
+	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
+		return hangingSignBlock(block, wallBlock, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new HangingSignItem(block.get(), wallBlock.get(), properties));
+	}
+}

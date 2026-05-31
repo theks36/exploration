@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exploration:block/pulsatinglampf4",
+    "up": "exploration:block/pulsatinglampf4",
+    "north": "exploration:block/pulsatinglampf4",
+    "east": "exploration:block/pulsatinglampf4",
+    "south": "exploration:block/pulsatinglampf4",
+    "west": "exploration:block/pulsatinglampf4",
+    "particle": "exploration:block/pulsatinglampf1"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:LeakingWoodLog"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LeakingWoodLog"
+      },
+      {
+        "value": "CUSTOM:LeakingWoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LeakingWoodLog"
+      },
+      {
+        "value": "CUSTOM:LeakingWoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LeakingWoodWood"
+    },
+    "name": "leaking_wood_wood_recipe",
+    "namespace": "mod"
+  }
+}

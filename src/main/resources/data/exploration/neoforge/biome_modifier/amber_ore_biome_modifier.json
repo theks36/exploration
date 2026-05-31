@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "exploration:leaking_woods",
+  "features": "exploration:amber_ore",
+  "step": "underground_ores"
+}

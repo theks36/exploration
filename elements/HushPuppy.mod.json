@@ -1,0 +1,246 @@
+{
+  "_fv": 85,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Hush Puppy",
+    "mobLabel": "",
+    "mobModelName": "Pig",
+    "mobModelTexture": "hushpuppyt.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 2.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 2.0
+    },
+    "modelLayers": [],
+    "animations": [],
+    "modelWidth": 0.9,
+    "modelHeight": 0.9,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -3355444,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "spawnEggTexture": "",
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      },
+      {
+        "value": "CUSTOM:DiddyBludCT"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 10,
+    "attackKnockback": 1.5,
+    "knockbackResistance": 0.5,
+    "movementSpeed": 0.3,
+    "stepHeight": 1.1,
+    "armorBaseValue": 6.0,
+    "trackingRange": 32,
+    "followRange": 32,
+    "health": 100,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "entity.hoglin.ambient"
+    },
+    "hurtSound": {
+      "value": "entity.hoglin.hurt"
+    },
+    "deathSound": {
+      "value": "entity.hoglin.death"
+    },
+    "stepSound": {
+      "value": "entity.sniffer.step"
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "entityDataEntries": [],
+    "onMobTickUpdate": {
+      "name": "HushPuppyOnEntityTickUpdate"
+    },
+    "onPlayerCollidesWith": {
+      "name": "HushPuppyPlayerCollidesWithThisEntity"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_with_range\"><field name=\"range\">2</field><field name=\"speed\">1</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.75</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningCondition": {
+      "name": "CanSeeSkyCondition"
+    },
+    "spawningProbability": 25,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ForestOfEternalWinter"
+      }
+    ],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": true,
+    "vibrationalEvents": [
+      {
+        "value": "BLOCK_ACTIVATE"
+      },
+      {
+        "value": "BLOCK_ATTACH"
+      },
+      {
+        "value": "BLOCK_CHANGE"
+      },
+      {
+        "value": "BLOCK_DESTROY"
+      },
+      {
+        "value": "BLOCK_PLACE"
+      },
+      {
+        "value": "CONTAINER_CLOSE"
+      },
+      {
+        "value": "CONTAINER_OPEN"
+      },
+      {
+        "value": "DRINK"
+      },
+      {
+        "value": "EAT"
+      },
+      {
+        "value": "ENTITY_DAMAGE"
+      },
+      {
+        "value": "ENTITY_DIE"
+      },
+      {
+        "value": "EQUIP"
+      },
+      {
+        "value": "EXPLODE"
+      },
+      {
+        "value": "HIT_GROUND"
+      },
+      {
+        "value": "JUKEBOX_PLAY"
+      },
+      {
+        "value": "NOTE_BLOCK_PLAY"
+      },
+      {
+        "value": "PROJECTILE_LAND"
+      },
+      {
+        "value": "PROJECTILE_SHOOT"
+      },
+      {
+        "value": "SHEAR"
+      },
+      {
+        "value": "SPLASH"
+      },
+      {
+        "value": "STEP"
+      },
+      {
+        "value": "SWIM"
+      }
+    ],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 32.0
+    },
+    "onReceivedVibration": {
+      "name": "HushPuppyVibrationReceived"
+    }
+  }
+}

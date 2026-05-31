@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "exploration:block/serpentinitebricks",
+    "bottom": "exploration:block/serpentinitebricks",
+    "top": "exploration:block/serpentinitebricks",
+    "side": "exploration:block/serpentinitebricks"
+  },
+  "render_type": "solid"
+}

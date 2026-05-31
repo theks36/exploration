@@ -1,0 +1,15 @@
+{
+  "_fv": 85,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Frozen Boat",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "entityTexture": "frozen_boat",
+    "itemTexture": "frozen_boat"
+  }
+}

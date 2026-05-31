@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "exploration:block/leaking_wood_planks",
+    "particle": "exploration:block/leaking_wood_planks"
+  },
+  "render_type": "solid"
+}

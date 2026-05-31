@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:orange_luminant_crystal",
+    "exploration:luminant_crystal",
+    "exploration:purple_luminant_crystal",
+    "exploration:blue_luminant_crystal",
+    "exploration:magenta_luminant_crystal",
+    "exploration:green_luminant_crystal",
+    "exploration:yellow_luminant_crystal",
+    "exploration:light_blue_luminant_crystal",
+    "exploration:lime_luminant_crystal",
+    "exploration:pink_luminant_crystal",
+    "exploration:red_luminant_crystal",
+    "exploration:cyan_luminant_crystal"
+  ]
+}

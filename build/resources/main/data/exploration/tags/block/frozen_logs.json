@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:frozen_wood",
+    "exploration:frozen_log",
+    "exploration:stripped_frozen_log",
+    "exploration:stripped_frozen_wood"
+  ]
+}

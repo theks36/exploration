@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "exploration:block/leaking_wood_planks",
+    "particle": "exploration:block/leaking_wood_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "exploration:forest_of_eternal_winter",
+  "features": "exploration:nephrite_ore",
+  "step": "underground_ores"
+}

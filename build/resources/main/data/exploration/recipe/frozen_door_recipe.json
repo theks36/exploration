@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "category": "redstone",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:frozen_planks"
+    }
+  },
+  "result": {
+    "id": "exploration:frozen_door",
+    "count": 3
+  }
+}

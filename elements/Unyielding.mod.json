@@ -1,0 +1,24 @@
+{
+  "_fv": 85,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Unyielding!",
+    "achievementDescription": "Craft a full set of Nephrite armor",
+    "achievementIcon": {
+      "value": "CUSTOM:NephriteArmor.body"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:UnderPressure"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"recipe_crafted\"><field name=\"recipe\">mod:nephrite_helmet_r</field><next><block type=\"recipe_crafted\"><field name=\"recipe\">mod:nephrite_chestplate_r</field><next><block type=\"recipe_crafted\"><field name=\"recipe\">mod:nephrite_leggings_r</field><next><block type=\"recipe_crafted\"><field name=\"recipe\">mod:nephrite_boots_r</field></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

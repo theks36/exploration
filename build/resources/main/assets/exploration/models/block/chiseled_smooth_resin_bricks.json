@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exploration:block/smoothresinbricks",
+    "up": "exploration:block/smoothresinbricks",
+    "north": "exploration:block/chiseledsmoothresinbricks",
+    "east": "exploration:block/chiseledsmoothresinbricks",
+    "south": "exploration:block/chiseledsmoothresinbricks",
+    "west": "exploration:block/chiseledsmoothresinbricks",
+    "particle": "exploration:block/smoothresinbricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:frozen_slab",
+    "exploration:leaking_wood_slab",
+    "exploration:smooth_resin_brick_slab",
+    "exploration:cobbled_shale_slab",
+    "exploration:serpentinite_bricks_slab",
+    "exploration:umbrastone_slab"
+  ]
+}

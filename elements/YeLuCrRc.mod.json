@@ -1,0 +1,86 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "luminant_crystal2",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:LuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:BlueLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:CyanLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:GreenLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:LightBlueLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:LimeLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:MagentaLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:OrangeLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:PinkLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:PurpleLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:RedLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:YellowLuminantCrystal"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:mod:luminant_crystals"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YellowLuminantCrystal"
+    },
+    "name": "ye_lu_cr_rc",
+    "namespace": "mod"
+  }
+}

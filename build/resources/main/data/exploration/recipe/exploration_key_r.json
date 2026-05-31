@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:resin_cluster"
+    },
+    "b": {
+      "item": "exploration:amberlined_ingot"
+    },
+    "c": {
+      "item": "exploration:amber"
+    }
+  },
+  "result": {
+    "id": "exploration:the_exploration",
+    "count": 1
+  }
+}

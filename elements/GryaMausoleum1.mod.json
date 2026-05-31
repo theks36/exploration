@@ -1,0 +1,33 @@
+{
+  "_fv": 85,
+  "_type": "structure",
+  "definition": {
+    "structure": "grya_gen_large_plot_mausoleum1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.JIGSAW"
+      }
+    ],
+    "spacing": 15,
+    "separation": 5,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Graveyard"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

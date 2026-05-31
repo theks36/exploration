@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:hematite_ingot"
+    }
+  },
+  "result": {
+    "id": "exploration:hematite_armor_helmet",
+    "count": 1
+  }
+}

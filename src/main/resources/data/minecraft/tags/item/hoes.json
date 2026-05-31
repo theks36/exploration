@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:hematite_hoe",
+    "exploration:amberlined_hoe",
+    "exploration:nephrite_hoe"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exploration:block/leaking_wood_log_top",
+    "up": "exploration:block/leaking_wood_log_top",
+    "north": "exploration:block/leaking_wood_log",
+    "east": "exploration:block/leaking_wood_log",
+    "south": "exploration:block/leaking_wood_log",
+    "west": "exploration:block/leaking_wood_log",
+    "particle": "exploration:block/leaking_wood_log"
+  },
+  "render_type": "solid"
+}

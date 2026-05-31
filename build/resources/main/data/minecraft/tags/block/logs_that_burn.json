@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#exploration:frozen_logs",
+      "required": false
+    },
+    {
+      "id": "#exploration:leaking_wood_logs",
+      "required": false
+    }
+  ]
+}

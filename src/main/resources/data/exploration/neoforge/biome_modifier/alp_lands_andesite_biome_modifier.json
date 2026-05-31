@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "exploration:alp_lands",
+  "features": "exploration:alp_lands_andesite",
+  "step": "underground_ores"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:bone_club"
+    },
+    "title": {
+      "translate": "advancements.cave_man.title"
+    },
+    "description": {
+      "translate": "advancements.cave_man.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "cave_man_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "exploration:on_start_game"
+}

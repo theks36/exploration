@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "exploration:crystal_shard"
+    },
+    {
+      "item": "exploration:umbrastone"
+    }
+  ],
+  "result": {
+    "id": "exploration:crystalized_umbrastone",
+    "count": 1
+  }
+}

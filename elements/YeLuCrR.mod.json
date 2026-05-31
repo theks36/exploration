@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "luminant_crystal",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CrystalShard"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YellowLuminantCrystal"
+    },
+    "name": "ye_lu_cr_r",
+    "namespace": "mod"
+  }
+}

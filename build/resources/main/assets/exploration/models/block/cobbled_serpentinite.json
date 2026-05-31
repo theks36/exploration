@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exploration:block/cobbledserpentinite",
+    "particle": "exploration:block/cobbledserpentinite"
+  },
+  "render_type": "solid"
+}

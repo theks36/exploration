@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "EXPLORATION_LEAKING_WOOD_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/theks/exploration/init/ExplorationModBoatTypes",
+        "field": "LEAKING_WOOD_BOAT_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "EXPLORATION_LEAKING_WOOD_CHEST_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/theks/exploration/init/ExplorationModBoatTypes",
+        "field": "LEAKING_WOOD_CHEST_BOAT_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "EXPLORATION_FROZEN_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/theks/exploration/init/ExplorationModBoatTypes",
+        "field": "FROZEN_BOAT_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "EXPLORATION_FROZEN_CHEST_BOAT",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "net/theks/exploration/init/ExplorationModBoatTypes",
+        "field": "FROZEN_CHEST_BOAT_TYPE"
+      }
+    }
+  ]
+}

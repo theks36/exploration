@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:resin_mush"
+    }
+  },
+  "result": {
+    "id": "exploration:smooth_resin_block",
+    "count": 1
+  }
+}

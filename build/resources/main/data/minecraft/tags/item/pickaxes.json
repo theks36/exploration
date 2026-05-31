@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:nephrite_short_sword",
+    "exploration:amberlined_pickaxe",
+    "exploration:bone_club",
+    "exploration:hematite_pickaxe",
+    "exploration:nephrite_pickaxe"
+  ]
+}

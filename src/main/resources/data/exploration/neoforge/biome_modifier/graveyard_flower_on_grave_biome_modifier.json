@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "exploration:graveyard",
+  "features": "exploration:graveyard_flower_on_grave",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "exploration:smooth_resin_block"
+    }
+  ],
+  "result": {
+    "id": "exploration:resin_mush",
+    "count": 4
+  }
+}

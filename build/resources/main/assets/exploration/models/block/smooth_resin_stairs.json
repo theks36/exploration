@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "exploration:block/smoothresinblock",
+    "bottom": "exploration:block/smoothresinblock",
+    "top": "exploration:block/smoothresinblock",
+    "side": "exploration:block/smoothresinblock"
+  },
+  "render_type": "solid"
+}

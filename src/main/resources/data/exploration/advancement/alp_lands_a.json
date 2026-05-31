@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:gneiss"
+    },
+    "title": {
+      "translate": "advancements.alp_lands_a.title"
+    },
+    "description": {
+      "translate": "advancements.alp_lands_a.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "alp_lands_a_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "exploration:alp_lands"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "exploration:exploration_a"
+}

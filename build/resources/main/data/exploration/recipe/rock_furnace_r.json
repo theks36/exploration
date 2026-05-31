@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "exploration:stonetoolcompatible"
+    }
+  },
+  "result": {
+    "id": "minecraft:furnace",
+    "count": 1
+  }
+}

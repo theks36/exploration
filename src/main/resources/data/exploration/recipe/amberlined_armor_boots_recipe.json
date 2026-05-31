@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:amberlined_ingot"
+    }
+  },
+  "result": {
+    "id": "exploration:amberlined_armor_boots",
+    "count": 1
+  }
+}

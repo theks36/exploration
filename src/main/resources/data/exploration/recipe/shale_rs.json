@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 0,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "exploration:cobbled_shale"
+  },
+  "result": {
+    "id": "exploration:shale"
+  }
+}

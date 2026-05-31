@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "exploration:frozen_logs"
+    }
+  ],
+  "result": {
+    "id": "exploration:frozen_planks",
+    "count": 4
+  }
+}

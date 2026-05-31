@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:moonite_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.moonite_armor_a.title"
+    },
+    "description": {
+      "translate": "advancements.moonite_armor_a.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "moonite_armor_a_0": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mod:moonite_helmet_r"
+      }
+    },
+    "moonite_armor_a_1": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mod:moonite_chestplate_r"
+      }
+    },
+    "moonite_armor_a_2": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mod:moonite_leggings_r"
+      }
+    },
+    "moonite_armor_a_3": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mod:moonite_boots_r"
+      }
+    }
+  },
+  "parent": "exploration:moon_asteroid_a"
+}

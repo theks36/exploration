@@ -1,0 +1,10 @@
+{
+  "values": {
+    "exploration:leaking_wood_leaves": {
+      "chance": 0.3
+    },
+    "exploration:frozen_leaves": {
+      "chance": 0.3
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "exploration:leaking_wood_log"
+    },
+    "title": {
+      "translate": "advancements.on_start_game.title"
+    },
+    "description": {
+      "translate": "advancements.on_start_game.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "on_start_game_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

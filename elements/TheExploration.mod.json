@@ -1,0 +1,86 @@
+{
+  "_fv": 85,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:LeakingWoods"
+      },
+      {
+        "value": "CUSTOM:ForestOfEternalWinter"
+      },
+      {
+        "value": "CUSTOM:AlpLands"
+      },
+      {
+        "value": "CUSTOM:Graveyard"
+      }
+    ],
+    "biomesInDimensionCaves": [
+      {
+        "value": "CUSTOM:CrystalCavern"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "seaLevel": 32,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": false,
+    "hasClouds": true,
+    "cloudHeight": 192,
+    "skyType": "NORMAL",
+    "sunHeightAffectsFog": true,
+    "canRespawnHere": false,
+    "hasFog": false,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": false,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": {
+      "value": "CUSTOM:SmoothResinBlock"
+    },
+    "portalParticles": {
+      "value": "VILLAGER_HAPPY"
+    },
+    "portalLuminance": 10,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "The Exploration Key",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:DiddyBludCT"
+      }
+    ],
+    "texture": "explorationkey",
+    "portalTexture": "explorationportal",
+    "enablePortal": true
+  }
+}

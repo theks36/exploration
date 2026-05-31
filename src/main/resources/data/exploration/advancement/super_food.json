@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:cured_resin_mush"
+    },
+    "title": {
+      "translate": "advancements.super_food.title"
+    },
+    "description": {
+      "translate": "advancements.super_food.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "super_food_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "exploration:cured_resin_mush"
+        }
+      }
+    }
+  },
+  "parent": "exploration:leaking_woods_a"
+}

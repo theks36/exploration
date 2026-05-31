@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:crystal_shard"
+    }
+  },
+  "result": {
+    "id": "exploration:luminant_crystal",
+    "count": 1
+  }
+}

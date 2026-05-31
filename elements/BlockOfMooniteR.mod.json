@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:MooniteIngot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MooniteIngot"
+      },
+      {
+        "value": "CUSTOM:MooniteIngot"
+      },
+      {
+        "value": "CUSTOM:MooniteIngot"
+      },
+      {
+        "value": "CUSTOM:MooniteIngot"
+      },
+      {
+        "value": "CUSTOM:MooniteIngot"
+      },
+      {
+        "value": "CUSTOM:MooniteIngot"
+      },
+      {
+        "value": "CUSTOM:MooniteIngot"
+      },
+      {
+        "value": "CUSTOM:MooniteIngot"
+      },
+      {
+        "value": "CUSTOM:MooniteIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockOfMoonite"
+    },
+    "name": "block_of_moonite_r",
+    "namespace": "mod"
+  }
+}

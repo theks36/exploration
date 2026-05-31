@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:smooth_resin_bricks"
+    }
+  },
+  "result": {
+    "id": "exploration:smooth_resin_brick_wall",
+    "count": 6
+  }
+}

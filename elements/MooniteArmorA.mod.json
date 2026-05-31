@@ -1,0 +1,24 @@
+{
+  "_fv": 85,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "To The Moon!",
+    "achievementDescription": "Craft a full set of Moonite armor",
+    "achievementIcon": {
+      "value": "CUSTOM:MooniteArmor.body"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:MoonAsteroidA"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"recipe_crafted\"><field name=\"recipe\">mod:moonite_helmet_r</field><next><block type=\"recipe_crafted\"><field name=\"recipe\">mod:moonite_chestplate_r</field><next><block type=\"recipe_crafted\"><field name=\"recipe\">mod:moonite_leggings_r</field><next><block type=\"recipe_crafted\"><field name=\"recipe\">mod:moonite_boots_r</field></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

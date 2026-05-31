@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "block_destroy",
+    "note_block_play",
+    "shear",
+    "container_close",
+    "projectile_land",
+    "block_place",
+    "jukebox_play",
+    "block_activate",
+    "projectile_shoot",
+    "hit_ground",
+    "drink",
+    "block_attach",
+    "block_change",
+    "equip",
+    "explode",
+    "container_open",
+    "eat",
+    "step",
+    "entity_die",
+    "splash",
+    "entity_damage",
+    "swim"
+  ]
+}

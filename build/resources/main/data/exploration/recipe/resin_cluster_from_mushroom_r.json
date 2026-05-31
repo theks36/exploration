@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:resin_mushroom"
+    }
+  },
+  "result": {
+    "id": "exploration:resin_cluster",
+    "count": 1
+  }
+}

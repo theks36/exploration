@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Spawn In Exploration",
+    "description": "When true, the default spawn point will be in the Exploration dimension.",
+    "category": "SPAWNING",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

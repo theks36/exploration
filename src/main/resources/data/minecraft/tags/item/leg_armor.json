@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:nephrite_armor_leggings",
+    "exploration:hematite_armor_leggings",
+    "exploration:moonite_armor_leggings",
+    "exploration:amberlined_armor_leggings"
+  ]
+}

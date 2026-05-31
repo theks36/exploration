@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:hematite_axe",
+    "exploration:amberlined_axe",
+    "exploration:nephrite_axe"
+  ]
+}

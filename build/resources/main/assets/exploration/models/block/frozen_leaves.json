@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exploration:block/frozen_leaves",
+    "particle": "exploration:block/frozen_leaves"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:replace_single_block",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "exploration:leaking_wood_log"
+        },
+        "state": {
+          "Name": "exploration:clustered_leaking_wood_log"
+        }
+      }
+    ]
+  }
+}

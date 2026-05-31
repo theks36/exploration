@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exploration:block/shaletopbottom",
+    "up": "exploration:block/shaletopbottom",
+    "north": "exploration:block/shale",
+    "east": "exploration:block/shale",
+    "south": "exploration:block/shale",
+    "west": "exploration:block/shale",
+    "particle": "exploration:block/shale"
+  },
+  "render_type": "solid"
+}

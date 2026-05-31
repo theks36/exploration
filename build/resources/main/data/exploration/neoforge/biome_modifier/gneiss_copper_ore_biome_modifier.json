@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "exploration:alp_lands",
+  "features": "exploration:gneiss_copper_ore",
+  "step": "underground_ores"
+}

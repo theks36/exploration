@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "exploration:block/moonite_ore"
+    },
+    "facing=east": {
+      "model": "exploration:block/moonite_ore",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "exploration:block/moonite_ore",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "exploration:block/moonite_ore",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "exploration:block/moonite_ore",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "exploration:block/moonite_ore",
+      "x": 90
+    }
+  }
+}

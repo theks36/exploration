@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "luminant_crystal",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "exploration:crystal_shard"
+    },
+    {
+      "item": "exploration:crystal_shard"
+    },
+    {
+      "item": "exploration:crystal_shard"
+    },
+    {
+      "item": "exploration:crystal_shard"
+    },
+    {
+      "item": "exploration:crystal_shard"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "exploration:crystal_shard"
+    },
+    {
+      "item": "exploration:crystal_shard"
+    },
+    {
+      "item": "exploration:crystal_shard"
+    }
+  ],
+  "result": {
+    "id": "exploration:orange_luminant_crystal",
+    "count": 1
+  }
+}

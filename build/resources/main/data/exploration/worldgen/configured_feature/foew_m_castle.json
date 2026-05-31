@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:foew_mcastle_1",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:foew_mcastle_2",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:foew_mcastle_3",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

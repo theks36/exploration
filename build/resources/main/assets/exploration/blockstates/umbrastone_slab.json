@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "exploration:block/umbrastone_slab"
+    },
+    "type=top": {
+      "model": "exploration:block/umbrastone_slab_top"
+    },
+    "type=double": {
+      "model": "exploration:block/umbrastone_slab_full"
+    }
+  }
+}

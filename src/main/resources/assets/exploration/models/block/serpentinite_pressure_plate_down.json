@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "exploration:block/serpentinite",
+    "particle": "exploration:block/serpentinite"
+  },
+  "render_type": "solid"
+}

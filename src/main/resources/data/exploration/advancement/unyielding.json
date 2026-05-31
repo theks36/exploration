@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:nephrite_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.unyielding.title"
+    },
+    "description": {
+      "translate": "advancements.unyielding.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unyielding_0": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mod:nephrite_helmet_r"
+      }
+    },
+    "unyielding_1": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mod:nephrite_chestplate_r"
+      }
+    },
+    "unyielding_2": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mod:nephrite_leggings_r"
+      }
+    },
+    "unyielding_3": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mod:nephrite_boots_r"
+      }
+    }
+  },
+  "parent": "exploration:under_pressure"
+}

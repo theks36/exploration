@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CrystalShard"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      },
+      {
+        "value": "CUSTOM:CrystalShard"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuminantCrystal"
+    },
+    "name": "lu_cr_r",
+    "namespace": "mod"
+  }
+}

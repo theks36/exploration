@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:hematite_shovel",
+    "exploration:nephrite_shovel",
+    "exploration:dead_mans_shovel",
+    "exploration:amberlined_shovel"
+  ]
+}

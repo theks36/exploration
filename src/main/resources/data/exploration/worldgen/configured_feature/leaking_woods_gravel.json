@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "exploration:shale"
+    },
+    "state": {
+      "Name": "minecraft:gravel"
+    },
+    "radius": {
+      "type": "uniform",
+      "min_inclusive": 3,
+      "max_inclusive": 6
+    }
+  }
+}

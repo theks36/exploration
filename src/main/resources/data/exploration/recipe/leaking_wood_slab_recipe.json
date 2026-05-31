@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:leaking_wood_planks"
+    }
+  },
+  "result": {
+    "id": "exploration:leaking_wood_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_fv": 85,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "ChestBoat",
+    "name": "Leaking Wood Boat with Chest",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:DiddyBludCT"
+      }
+    ],
+    "entityTexture": "leaking_wood_chest_boat",
+    "itemTexture": "leaking_wood_chest_boat"
+  }
+}

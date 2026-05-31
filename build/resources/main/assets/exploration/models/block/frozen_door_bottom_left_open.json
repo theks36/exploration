@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "particle": "exploration:block/frozen_door_bottom",
+    "bottom": "exploration:block/frozen_door_bottom",
+    "top": "exploration:block/frozen_door_top"
+  },
+  "render_type": "cutout"
+}

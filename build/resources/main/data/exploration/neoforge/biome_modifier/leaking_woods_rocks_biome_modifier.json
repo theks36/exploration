@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "exploration:leaking_woods",
+  "features": "exploration:leaking_woods_rocks",
+  "step": "local_modifications"
+}

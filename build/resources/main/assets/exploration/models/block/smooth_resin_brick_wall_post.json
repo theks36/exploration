@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "exploration:block/smoothresinbricks",
+    "particle": "exploration:block/smoothresinbricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,211 @@
+{
+  "type": "exploration:graveyard_tombstones",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_tombstone1",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_tombstone1t",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_tombstone2",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_tombstone2t",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_tombstone3",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_tombstone3t",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_tombstone4",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_tombstone5",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_tombstone6",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_tombstone7",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_dug_grave1",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -3,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:graveyard_dug_grave2",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -3,
+              0
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "music.eternal_winter": {
+    "subtitle": "subtitles.music.eternal_winter",
+    "sounds": [
+      {
+        "name": "exploration:wndman03_the_basement",
+        "stream": true
+      }
+    ]
+  }
+}

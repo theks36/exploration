@@ -1,0 +1,121 @@
+{
+  "_fv": 85,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "moonitehelmet",
+    "enableBody": true,
+    "textureBody": "moonitechestplate",
+    "enableLeggings": true,
+    "textureLeggings": "mooniteleggings",
+    "enableBoots": true,
+    "textureBoots": "mooniteboots",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DiddyBludCT"
+      }
+    ],
+    "armorTextureFile": "moonite",
+    "helmetName": "Moonite Helmet",
+    "bodyName": "Moonite Chestplate",
+    "leggingsName": "Moonite Leggings",
+    "bootsName": "Moonite Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "§b-0,0145 Gravity when worn",
+        "§b+1,75 Safe Fall Distance when worn"
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "§b-0,0145 Gravity when worn",
+        "§b+1,75 Safe Fall Distance when worn"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "§b-0,0145 Gravity when worn",
+        "§b+1,75 Safe Fall Distance when worn"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "§b-0,0145 Gravity when worn",
+        "§b+1,75 Safe Fall Distance when worn"
+      ]
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetTranslucency": false,
+    "bodyTranslucency": false,
+    "leggingsTranslucency": false,
+    "bootsTranslucency": false,
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 1,
+    "enchantability": 12,
+    "toughness": 0.5,
+    "knockbackResistance": 0.05,
+    "equipSound": {
+      "value": "item.armor.equip_diamond"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:MooniteIngot"
+      }
+    ],
+    "rarity": "RARE"
+  }
+}

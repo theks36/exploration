@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:cobbled_shale_stairs",
+    "exploration:umbrastone_stairs",
+    "exploration:serpentinite_brick_stairs",
+    "exploration:leaking_wood_stairs",
+    "exploration:frozen_stairs",
+    "exploration:smooth_resin_stairs"
+  ]
+}

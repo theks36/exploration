@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exploration:block/shalecoaltb",
+    "up": "exploration:block/shalecoaltb",
+    "north": "exploration:block/shalecoal",
+    "east": "exploration:block/shalecoal",
+    "south": "exploration:block/shalecoal",
+    "west": "exploration:block/shalecoal",
+    "particle": "exploration:block/shalecoaltb"
+  },
+  "render_type": "solid"
+}

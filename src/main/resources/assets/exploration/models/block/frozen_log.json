@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exploration:block/frozen_log_top",
+    "up": "exploration:block/frozen_log_top",
+    "north": "exploration:block/frozen_log",
+    "east": "exploration:block/frozen_log",
+    "south": "exploration:block/frozen_log",
+    "west": "exploration:block/frozen_log",
+    "particle": "exploration:block/frozen_log"
+  },
+  "render_type": "solid"
+}

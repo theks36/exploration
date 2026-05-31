@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "exploration:crystal_cavern",
+  "features": "exploration:white_crystals",
+  "step": "underground_decoration"
+}

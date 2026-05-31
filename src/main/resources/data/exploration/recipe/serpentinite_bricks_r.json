@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:serpentinite"
+    }
+  },
+  "result": {
+    "id": "exploration:serpentinite_bricks",
+    "count": 4
+  }
+}

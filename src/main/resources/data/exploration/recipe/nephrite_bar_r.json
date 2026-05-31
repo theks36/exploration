@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:nephrite"
+    }
+  },
+  "result": {
+    "id": "exploration:nephrite_bar",
+    "count": 1
+  }
+}

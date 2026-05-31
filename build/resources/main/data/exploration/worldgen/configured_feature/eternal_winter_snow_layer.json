@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:randomized_int_state_provider",
+      "source": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:snow"
+        }
+      },
+      "property": "layers",
+      "values": {
+        "type": "uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 7
+      }
+    }
+  }
+}

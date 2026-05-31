@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:foew_achievement_icon"
+    },
+    "title": {
+      "translate": "advancements.foew_a.title"
+    },
+    "description": {
+      "translate": "advancements.foew_a.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "foew_a_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "exploration:forest_of_eternal_winter"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "exploration:exploration_a"
+}

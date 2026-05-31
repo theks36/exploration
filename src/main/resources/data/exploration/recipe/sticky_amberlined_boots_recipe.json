@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:amberlined_ingot"
+    },
+    "b": {
+      "item": "exploration:resin_glue"
+    }
+  },
+  "result": {
+    "id": "exploration:sticky_amberlined_boots_boots",
+    "count": 1
+  }
+}

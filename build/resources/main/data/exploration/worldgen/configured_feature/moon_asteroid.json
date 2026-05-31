@@ -1,0 +1,137 @@
+{
+  "type": "exploration:moon_asteroid",
+  "config": {
+    "default": {
+      "feature": {
+        "type": "minecraft:no_op",
+        "config": {}
+      },
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 1,
+        "feature": {
+          "feature": {
+            "type": "minecraft:geode",
+            "config": {
+              "blocks": {
+                "filling_provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "exploration:moonstone"
+                  }
+                },
+                "inner_layer_provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "exploration:moonstone"
+                  }
+                },
+                "alternate_inner_layer_provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "exploration:moonite_ore"
+                  }
+                },
+                "middle_layer_provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:calcite"
+                  }
+                },
+                "outer_layer_provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:calcite"
+                  }
+                },
+                "inner_placements": [
+                  {
+                    "Name": "exploration:moonite_ore"
+                  }
+                ],
+                "cannot_replace": "#features_cannot_replace",
+                "invalid_blocks": "#geode_invalid_blocks"
+              },
+              "layers": {
+                "filling": 0.68,
+                "inner_layer": 0.88,
+                "middle_layer": 1.28,
+                "outer_layer": 1.68
+              },
+              "crack": {},
+              "invalid_blocks_threshold": 5,
+              "use_alternate_layer0_chance": 0.083
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": {
+            "type": "minecraft:block_pile",
+            "config": {
+              "state_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "exploration:moonstone"
+                }
+              }
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": {
+            "type": "minecraft:forest_rock",
+            "config": {
+              "state": {
+                "Name": "exploration:moonstone"
+              }
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.05,
+        "feature": {
+          "feature": {
+            "type": "minecraft:ore",
+            "config": {
+              "size": 9,
+              "discard_chance_on_air_exposure": 0,
+              "targets": [
+                {
+                  "target": {
+                    "predicate_type": "tag_match",
+                    "tag": "stone_ore_replaceables"
+                  },
+                  "state": {
+                    "Name": "exploration:moonstone"
+                  }
+                },
+                {
+                  "target": {
+                    "predicate_type": "tag_match",
+                    "tag": "dirt"
+                  },
+                  "state": {
+                    "Name": "exploration:moonstone"
+                  }
+                }
+              ]
+            }
+          },
+          "placement": []
+        }
+      }
+    ]
+  }
+}

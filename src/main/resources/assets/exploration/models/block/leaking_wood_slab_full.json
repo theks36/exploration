@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "exploration:block/leaking_wood_planks",
+    "bottom": "exploration:block/leaking_wood_planks",
+    "top": "exploration:block/leaking_wood_planks",
+    "side": "exploration:block/leaking_wood_planks"
+  },
+  "render_type": "solid"
+}

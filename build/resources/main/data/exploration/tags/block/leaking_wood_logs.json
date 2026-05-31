@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:stripped_leaking_wood_log",
+    "exploration:stripped_leaking_wood_wood",
+    "exploration:leaking_wood_log",
+    "exploration:leaking_wood"
+  ]
+}

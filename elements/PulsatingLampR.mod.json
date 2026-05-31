@@ -1,0 +1,86 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:LuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:BlueLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:CyanLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:GreenLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:LightBlueLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:LimeLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:MagentaLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:OrangeLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:PinkLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:PurpleLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:RedLuminantCrystal"
+      },
+      {
+        "value": "CUSTOM:YellowLuminantCrystal"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Umbrastone"
+      },
+      {
+        "value": "CUSTOM:Umbrastone"
+      },
+      {
+        "value": "CUSTOM:Umbrastone"
+      },
+      {
+        "value": "CUSTOM:Umbrastone"
+      },
+      {
+        "value": "TAG:mod:luminant_crystals"
+      },
+      {
+        "value": "CUSTOM:Umbrastone"
+      },
+      {
+        "value": "CUSTOM:Umbrastone"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Umbrastone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PulsatingLamp"
+    },
+    "name": "pulsating_lamp_r",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:frozen_trapdoor",
+    "exploration:leaking_wood_trapdoor"
+  ]
+}

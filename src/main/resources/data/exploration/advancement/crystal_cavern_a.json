@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:luminant_crystal"
+    },
+    "title": {
+      "translate": "advancements.crystal_cavern_a.title"
+    },
+    "description": {
+      "translate": "advancements.crystal_cavern_a.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crystal_cavern_a_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "exploration:crystal_cavern"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "exploration:exploration_a"
+}

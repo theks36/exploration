@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Creative Commons Attribution-NonCommercial 4.0"
+
+[[mods]]
+modId="exploration"
+version="0.0.41"
+displayName="Exploration"
+displayURL="https://modrinth.com/project/exploration/"
+logoFile="logo.png"
+credits="Music - Windman03"
+authors="ks36"
+description="Exploration adds features focusing on new biomes"
+enumExtensions="META-INF/enumextensions.json"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[mixins]]
+    config = "exploration.mixins.json"
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.exploration]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.exploration]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

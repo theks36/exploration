@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:frozen_pressure_plate",
+    "exploration:leaking_wood_pressure_plate"
+  ]
+}

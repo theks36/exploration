@@ -1,0 +1,28 @@
+{
+  "feature": "exploration:moon_asteroid",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 160
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 0,
+      "y_spread": {
+        "type": "biased_to_bottom",
+        "min_inclusive": -16,
+        "max_inclusive": -12
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

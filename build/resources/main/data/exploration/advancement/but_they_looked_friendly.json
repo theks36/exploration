@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:resin_droplet_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.but_they_looked_friendly.title"
+    },
+    "description": {
+      "translate": "advancements.but_they_looked_friendly.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "but_they_looked_friendly_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 5
+          },
+          "source_entity": {
+            "type": "exploration:resin_droplet"
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "parent": "exploration:leaking_woods_a"
+}

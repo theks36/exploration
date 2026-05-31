@@ -1,0 +1,53 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 2022080 bytes. Error detail: Chunk::new
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   This process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Zero Based Compressed Oops mode in which the Java heap is
+#     placed in the first 32GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 32GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (arena.cpp:168), pid=29608, tid=19756
+#
+# JRE version: OpenJDK Runtime Environment JBR-21.0.10+1-1163.105-jcef (21.0.10+1) (build 21.0.10+1-b1163.105)
+# Java VM: OpenJDK 64-Bit Server VM JBR-21.0.10+1-1163.105-jcef (21.0.10+1-b1163.105, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dfml.modFolders=mcreator%%C:\Softwares\MCreatorWorkspaces\diddyblud\build\classes\java\main;mcreator%%C:\Softwares\MCreatorWorkspaces\diddyblud\build\resources\main --module-path=C:\\Users\\gr315083\\.mcreator\\gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\JarJarFileSystems\\0.4.1\\78f59f89defcd032ed788b151ca6a0d40ace796a\\JarJarFileSystems-0.4.1.jar;C:\\Users\\gr315083\\.mcreator\\gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\bootstraplauncher\\2.0.2\\1a2d076cbc33b0520cbacd591224427b2a20047d\\bootstraplauncher-2.0.2.jar;C:\\Users\\gr315083\\.mcreator\\gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\securejarhandler\\3.0.8\\c0ef95cecd8699a0449053ac7d9c160748d902cd\\securejarhandler-3.0.8.jar;C:\\Users\\gr315083\\.mcreator\\gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-commons\\9.8\\36e4d212970388e5bd2c5180292012502df461bb\\asm-commons-9.8.jar;C:\\Users\\gr315083\\.mcreator\\gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-util\\9.8\\395f1c1f035258511f27bc9b2583d76e4b143f59\\asm-util-9.8.jar;C:\\Users\\gr315083\\.mcreator\\gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-analysis\\9.8\\b9747a320844b6cb1eacd90d8ecfd260a16c01d3\\asm-analysis-9.8.jar;C:\\Users\\gr315083\\.mcreator\\gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-tree\\9.8\\18419ca5b77a2f81097c741e7872e6ab8d2f40d\\asm-tree-9.8.jar;C:\\Users\\gr315083\\.mcreator\\gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\9.8\\dc19ecb3f7889b7860697215cae99c0f9b6f6b4b\\asm-9.8.jar --add-modules=ALL-MODULE-PATH --add-opens=java.base/java.util.jar=cpw.mods.securejarhandler --add-opens=java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports=java.base/sun.security.util=cpw.mods.securejarhandler --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming -Dcom.sun.management.jmxremote.port=1099 -Dcom.sun.management.jmxremote.local.only=true -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Dlog4j2.configurationFile=C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\build\\moddev\\clientLog4j2.xml -Djava.net.preferIPv6Addresses=system -DignoreList=mixinextras-neoforge-0.4.1.jar,client-extra,neoforge- -DlegacyClassPath.file=C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\build\\moddev\\clientLegacyClasspath.txt -Dneoforge.enableGameTest=true -Dforge.logging.markers=REGISTRIES -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant net.neoforged.devlaunch.Main @C:\\Softwares\\MCreatorWorkspaces\\diddyblud\\build\\moddev\\clientRunProgramArgs.txt
+
+Host: AMD Ryzen 3 7335U with Radeon Graphics         , 8 cores, 14G,  Windows 11 , 64 bit Build 26100 (10.0.26100.8246)
+Time: Wed May 20 09:04:03 2026 FLE Daylight Time elapsed time: 210.985912 seconds (0d 0h 3m 30s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001dea8637bb0):  JavaThread "C2 CompilerThread0" daemon [_thread_in_native, id=19756, stack(0x0000003016800000,0x0000003016900000) (1024K)]
+
+
+Current CompileTask:
+C2:210985 40271   !   4       net.minecraft.world.level.chunk.storage.ChunkSerializer::write (1022 bytes)
+
+Stack: [0x0000003016800000,0x0000003016900000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x6ecf49]
+V  [jvm.dll+0x8cbe73]
+V  [jvm.dll+0x8ce49e]
+V  [jvm.dll+0x8ceb83]  VMError::report_and_die+0x43
+V  [jvm.dll+0x28b776]  report_vm_out_of_memory+0x56
+V  [jvm.dll+0xc6f3d]  Chunk::operator new+0x10d
+V  [jvm.dll+0xc7473]  Arena::grow+0x103
+V  [jvm.dll+0x3c865b]  PhaseIFG::init+0xbb
+V  [jvm.dll+0x394047]

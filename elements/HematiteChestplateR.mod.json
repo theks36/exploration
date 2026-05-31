@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:HematiteIngot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HematiteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HematiteIngot"
+      },
+      {
+        "value": "CUSTOM:HematiteIngot"
+      },
+      {
+        "value": "CUSTOM:HematiteIngot"
+      },
+      {
+        "value": "CUSTOM:HematiteIngot"
+      },
+      {
+        "value": "CUSTOM:HematiteIngot"
+      },
+      {
+        "value": "CUSTOM:HematiteIngot"
+      },
+      {
+        "value": "CUSTOM:HematiteIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HematiteArmor.body"
+    },
+    "name": "hematite_chestplate_r",
+    "namespace": "mod"
+  }
+}

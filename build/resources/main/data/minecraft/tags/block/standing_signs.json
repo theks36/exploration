@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:frozen_sign",
+    "exploration:leaking_wood_sign"
+  ]
+}

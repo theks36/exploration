@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:foew_scastle_1",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:foew_scastle_2",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:foew_scastle_3",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:foew_scastle_4",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "exploration:structure_feature",
+          "config": {
+            "structure": "exploration:foew_scastle_5",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

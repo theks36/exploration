@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "exploration:nephrite_bar"
+    },
+    {
+      "item": "exploration:nephrite_bar"
+    },
+    {
+      "item": "exploration:nephrite_bar"
+    },
+    {
+      "item": "exploration:nephrite_bar"
+    },
+    {
+      "item": "exploration:nephrite_bar"
+    },
+    {
+      "item": "exploration:nephrite_bar"
+    },
+    {
+      "item": "exploration:nephrite_bar"
+    },
+    {
+      "item": "exploration:nephrite_bar"
+    },
+    {
+      "item": "exploration:nephrite_bar"
+    }
+  ],
+  "result": {
+    "id": "exploration:block_of_nephrite",
+    "count": 1
+  }
+}

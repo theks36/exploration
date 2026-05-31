@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exploration:block/stripped_leaking_wood_log",
+    "particle": "exploration:block/stripped_leaking_wood_log"
+  },
+  "render_type": "solid"
+}

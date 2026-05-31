@@ -1,0 +1,44 @@
+{
+  "_fv": 85,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Bleeding",
+    "icon": "bleeding",
+    "color": {
+      "value": -3407872,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "DRIP_WATER"
+    },
+    "onAddedSound": {
+      "value": "entity.player.attack.weak"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "equipmentSlot": "any",
+        "attribute": {
+          "value": "MOVEMENT_SPEED"
+        },
+        "amount": -0.25,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "equipmentSlot": "any",
+        "attribute": {
+          "value": "ARMOR"
+        },
+        "amount": -0.25,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "onActiveTick": {
+      "name": "BleedingOnEffectActiveTick"
+    }
+  }
+}

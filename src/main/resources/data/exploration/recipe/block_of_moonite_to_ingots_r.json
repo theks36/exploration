@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "exploration:block_of_moonite"
+    }
+  ],
+  "result": {
+    "id": "exploration:moonite_ingot",
+    "count": 9
+  }
+}

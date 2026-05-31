@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exploration:block/shaleirontb",
+    "up": "exploration:block/shaleirontb",
+    "north": "exploration:block/shaleiron",
+    "east": "exploration:block/shaleiron",
+    "south": "exploration:block/shaleiron",
+    "west": "exploration:block/shaleiron",
+    "particle": "exploration:block/shaleirontb"
+  },
+  "render_type": "solid"
+}

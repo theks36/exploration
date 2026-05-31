@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.still_standing.title"
+    },
+    "description": {
+      "translate": "advancements.still_standing.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "still_standing_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "exploration:leaking_woods_a"
+}

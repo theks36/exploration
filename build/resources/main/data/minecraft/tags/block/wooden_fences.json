@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "exploration:leaking_wood_fence",
+    "exploration:frozen_fence"
+  ]
+}

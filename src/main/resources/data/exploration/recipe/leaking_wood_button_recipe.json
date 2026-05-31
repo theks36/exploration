@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "exploration:leaking_wood_planks"
+    }
+  ],
+  "result": {
+    "id": "exploration:leaking_wood_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "exploration:leaking_woods",
+    "exploration:forest_of_eternal_winter",
+    "exploration:alp_lands"
+  ],
+  "features": "exploration:moon_asteroid",
+  "step": "surface_structures"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exploration:block/nephriteironore",
+    "particle": "exploration:block/nephriteironore"
+  },
+  "render_type": "solid"
+}

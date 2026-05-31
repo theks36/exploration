@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exploration:block/amberoretopbottom",
+    "up": "exploration:block/amberoretopbottom",
+    "north": "exploration:block/amberore",
+    "east": "exploration:block/amberore",
+    "south": "exploration:block/amberore",
+    "west": "exploration:block/amberore",
+    "particle": "exploration:block/amberoretopbottom"
+  },
+  "render_type": "solid"
+}

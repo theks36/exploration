@@ -1,0 +1,50 @@
+/difficulty normal
+/setblock ~ ~1 ~ minecraft:chest{LootTable:"exploration:chests/mausoleum"} destroy
+/setblock ~ ~ ~ minecraft:chest{LootTable:"exploration:chests/mausoleum"} destroy
+/data merge block ~ ~-1 ~ {LootTable:"exploration:chests/mausoleum"}
+/data merge block ~ ~ ~ {LootTable:"exploration:chests/mausoleum"}
+/locate structure exploration:grya_gen
+/locate structure exploration:grya_mausoleum_1
+/tp @s 432 ~ -192
+/locate structure exploration:grya_mausoleum_2
+/tp @s 320 ~ -192
+/time set midnight
+/gamemode survival
+/time set midnight
+/gamerule doDaylightCycle
+/gamerule doDaylightCycle false
+/time set midnight
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/kill @a
+/kill @e
+/gamemode survival
+/gamemode creative
+/summon minecraft:lightning_bolt
+//summon minecraft:lightning_bolt
+/summon minecraft:lightning_bolt
+/gamemode survival
+/give @s exploration:bone_club
+/tick freeze
+/fill ~ ~ ~ ~5 ~5 ~5 minecraft:structure_void replace #minecraft:air
+/fill ~ ~ ~ ~5 ~5 ~5 minecraft:air replace minecraft:structure_void
+/fill ~ ~ ~ ~5 ~5 ~5 minecraft:structure_void replace #minecraft:air
+/fill ~ ~ ~ ~5 ~5 ~5 minecraft:air replace minecraft:structure_void
+/fill ~ ~ ~ ~5 ~5 ~5 minecraft:structure_void replace #minecraft:air
+/time set midnight
+/time set night
+/time add 500
+/locate biome exploration:graveyard
+/tp @s 282 75 25
+/locate biome exploration:graveyard
+/tp @s 410 107 648
+/gamemode survival
+/locate biome exploration:graveyard
+/tp @s 313 72 -441
+/gamemode survival
+/locate structure exploration:grya_mausoleum_1
+/tp @s 1040 ~ -592
+/gamemode creative
+/tp @s 1040 ~ -592
+/gamemode survival

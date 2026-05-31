@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:raw_hematite"
+    },
+    "title": {
+      "translate": "advancements.hematite_a.title"
+    },
+    "description": {
+      "translate": "advancements.hematite_a.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hematite_a_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "exploration:raw_hematite",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "exploration:alp_lands_a"
+}

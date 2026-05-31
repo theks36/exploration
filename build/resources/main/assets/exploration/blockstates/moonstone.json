@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "exploration:block/moonstone"
+    },
+    "facing=east": {
+      "model": "exploration:block/moonstone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "exploration:block/moonstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "exploration:block/moonstone",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "exploration:block/moonstone",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "exploration:block/moonstone",
+      "x": 90
+    }
+  }
+}

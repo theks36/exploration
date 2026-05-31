@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "exploration:leaking_wood_logs"
+    }
+  ],
+  "result": {
+    "id": "exploration:leaking_wood_planks",
+    "count": 4
+  }
+}

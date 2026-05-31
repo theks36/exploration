@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "exploration:block/frozen_slab"
+    },
+    "type=top": {
+      "model": "exploration:block/frozen_slab_top"
+    },
+    "type=double": {
+      "model": "exploration:block/frozen_slab_full"
+    }
+  }
+}

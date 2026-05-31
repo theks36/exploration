@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exploration:block/shalegoldtb",
+    "up": "exploration:block/shalegoldtb",
+    "north": "exploration:block/shalegold",
+    "east": "exploration:block/shalegold",
+    "south": "exploration:block/shalegold",
+    "west": "exploration:block/shalegold",
+    "particle": "exploration:block/shalegoldtb"
+  },
+  "render_type": "solid"
+}

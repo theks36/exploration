@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exploration:block/greenluminantcrystal",
+    "particle": "exploration:block/greenluminantcrystal"
+  },
+  "render_type": "solid"
+}

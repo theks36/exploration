@@ -1,0 +1,18 @@
+{
+  "_fv": 85,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Leaking Wood Boat",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:DiddyBludCT"
+      }
+    ],
+    "entityTexture": "leaking_wood_boat",
+    "itemTexture": "leaking_wood_boat"
+  }
+}

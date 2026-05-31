@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "TAG:mod:stonetoolcompatible"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:mod:stonetoolcompatible"
+      },
+      {
+        "value": "TAG:mod:stonetoolcompatible"
+      },
+      {
+        "value": "TAG:mod:stonetoolcompatible"
+      },
+      {
+        "value": "TAG:mod:stonetoolcompatible"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:mod:stonetoolcompatible"
+      },
+      {
+        "value": "TAG:mod:stonetoolcompatible"
+      },
+      {
+        "value": "TAG:mod:stonetoolcompatible"
+      },
+      {
+        "value": "TAG:mod:stonetoolcompatible"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.FURNACE"
+    },
+    "name": "rock_furnace_r",
+    "namespace": "mod"
+  }
+}
