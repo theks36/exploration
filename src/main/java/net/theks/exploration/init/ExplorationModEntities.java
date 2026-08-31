@@ -45,6 +45,14 @@ public class ExplorationModEntities {
 			EntityType.Builder.<JackoEntity>of(JackoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<WalkerEntity>> WALKER = register("walker",
+			EntityType.Builder.<WalkerEntity>of(WalkerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3)
+
+					.sized(1.25f, 2.75f));
+	public static final DeferredHolder<EntityType<?>, EntityType<FairyEntity>> FAIRY = register("fairy",
+			EntityType.Builder.<FairyEntity>of(FairyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -60,6 +68,8 @@ public class ExplorationModEntities {
 		MamaSpiderEntity.init(event);
 		CrystalizedZombieEntity.init(event);
 		JackoEntity.init(event);
+		WalkerEntity.init(event);
+		FairyEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -70,5 +80,7 @@ public class ExplorationModEntities {
 		event.put(MAMA_SPIDER.get(), MamaSpiderEntity.createAttributes().build());
 		event.put(CRYSTALIZED_ZOMBIE.get(), CrystalizedZombieEntity.createAttributes().build());
 		event.put(JACKO.get(), JackoEntity.createAttributes().build());
+		event.put(WALKER.get(), WalkerEntity.createAttributes().build());
+		event.put(FAIRY.get(), FairyEntity.createAttributes().build());
 	}
 }

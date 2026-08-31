@@ -1,0 +1,14 @@
+{
+  "_fv": 85,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "VEGETAL_DECORATION",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MushroomGarden"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_huge_red_mushroom\"><field name=\"radius\">2</field><value name=\"cap\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:WhiteMushroomBlock</field></block></value><value name=\"stem\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">Blocks.MUSHROOM_STEM</field></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">4</field></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">20</field><next><block type=\"placement_in_square\"><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR_WG</field><next><block type=\"placement_block_survival_filter\"><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">Blocks.SAPLING#0</field></block></value><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

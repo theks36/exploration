@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:pink_mushroom"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "id": "exploration:pink_mushroom_stew",
+    "count": 1
+  }
+}

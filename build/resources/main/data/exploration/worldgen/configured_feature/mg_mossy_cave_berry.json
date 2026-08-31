@@ -1,0 +1,37 @@
+{
+  "type": "exploration:mg_mossy_cave_berry",
+  "config": {
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:air"
+    },
+    "direction": "down",
+    "prioritize_tip": false,
+    "layers": [
+      {
+        "height": {
+          "type": "uniform",
+          "min_inclusive": 2,
+          "max_inclusive": 5
+        },
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:cave_vines"
+              },
+              "weight": 4
+            },
+            {
+              "data": {
+                "Name": "minecraft:cave_vines_plant"
+              },
+              "weight": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

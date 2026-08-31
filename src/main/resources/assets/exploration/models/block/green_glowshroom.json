@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "exploration:block/greenglowshroom",
+    "particle": "exploration:block/greenglowshroom"
+  },
+  "render_type": "cutout"
+}

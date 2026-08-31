@@ -1,0 +1,17 @@
+{
+  "_fv": 85,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "UNDERGROUND_DECORATION",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MushroomGarden"
+      }
+    ],
+    "generateCondition": {
+      "name": "CantSeeSkyCondition"
+    },
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"247\" y=\"96\"><value name=\"feature\"><block type=\"feature_huge_red_mushroom\"><field name=\"radius\">2</field><value name=\"cap\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:BlueGlowshroomBlock</field></block></value><value name=\"stem\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">Blocks.MUSHROOM_STEM</field></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">255</field></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_height_range\"><value name=\"height\"><block type=\"height_provider_uniform\"><value name=\"min\"><block type=\"vertical_anchor_above_bottom\"><field name=\"value\">5</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">50</field></block></value></block></value><next><block type=\"placement_environment_scan_advanced\"><field name=\"maxSteps\">32</field><field name=\"direction\">DOWN</field><value name=\"searchCondition\"><block type=\"block_predicate_is_air\"></block></value><value name=\"condition\"><block type=\"block_predicate_solid\"><field name=\"x\">0</field><field name=\"y\">-1</field><field name=\"z\">0</field></block></value><next><block type=\"placement_block_predicate_filter\"><value name=\"condition\"><block type=\"block_predicate_matching_blocks\"><field name=\"x\">0</field><field name=\"y\">-1</field><field name=\"z\">0</field><value name=\"blockSet\"><block type=\"block_holderset_list\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"2\"></mutation><field name=\"block0\">Blocks.STONE#0</field><field name=\"block1\">Blocks.MOSS_BLOCK</field></block></value></block></value><next><block type=\"placement_block_predicate_filter\"><value name=\"condition\"><block type=\"block_predicate_matching_blocks\"><field name=\"x\">0</field><field name=\"y\">0</field><field name=\"z\">0</field><value name=\"blockSet\"><block type=\"block_holderset_tag\"><field name=\"tag\">minecraft:air</field></block></value></block></value><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

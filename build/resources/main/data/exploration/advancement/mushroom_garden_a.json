@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:green_mushroom"
+    },
+    "title": {
+      "translate": "advancements.mushroom_garden_a.title"
+    },
+    "description": {
+      "translate": "advancements.mushroom_garden_a.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mushroom_garden_a_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "exploration:mushroom_garden"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "exploration:exploration_a"
+}

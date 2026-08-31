@@ -20,5 +20,7 @@ public class ExplorationModEntityRenderers {
 		event.registerEntityRenderer(ExplorationModEntities.MAMA_SPIDER.get(), MamaSpiderRenderer::new);
 		event.registerEntityRenderer(ExplorationModEntities.CRYSTALIZED_ZOMBIE.get(), CrystalizedZombieRenderer::new);
 		event.registerEntityRenderer(ExplorationModEntities.JACKO.get(), JackoRenderer::new);
+		event.registerEntityRenderer(ExplorationModEntities.WALKER.get(), WalkerRenderer::new);
+		event.registerEntityRenderer(ExplorationModEntities.FAIRY.get(), FairyRenderer::new);
 	}
 }

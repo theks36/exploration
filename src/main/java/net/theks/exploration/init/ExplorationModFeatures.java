@@ -22,4 +22,9 @@ public class ExplorationModFeatures {
 	public static final DeferredHolder<Feature<?>, Feature<?>> PURPLE_CRYSTALS = REGISTRY.register("purple_crystals", PurpleCrystalsFeature::new);
 	public static final DeferredHolder<Feature<?>, Feature<?>> YELLOW_CRYSTALS = REGISTRY.register("yellow_crystals", YellowCrystalsFeature::new);
 	public static final DeferredHolder<Feature<?>, Feature<?>> GRAVEYARD_TOMBSTONES = REGISTRY.register("graveyard_tombstones", GraveyardTombstonesFeature::new);
+	public static final DeferredHolder<Feature<?>, Feature<?>> MG_MOSSY_CAVES = REGISTRY.register("mg_mossy_caves", MGMossyCavesFeature::new);
+	public static final DeferredHolder<Feature<?>, Feature<?>> MG_MOSSY_CAVES_CEILING = REGISTRY.register("mg_mossy_caves_ceiling", MGMossyCavesCeilingFeature::new);
+	public static final DeferredHolder<Feature<?>, Feature<?>> MG_MOSSY_CAVE_BERRY = REGISTRY.register("mg_mossy_cave_berry", MGMossyCaveBerryFeature::new);
+	public static final DeferredHolder<Feature<?>, Feature<?>> BIG_BLUE_GLOWSHROOM = REGISTRY.register("big_blue_glowshroom", BigBlueGlowshroomFeature::new);
+	public static final DeferredHolder<Feature<?>, Feature<?>> BIG_GREEN_GLOWSHROOM = REGISTRY.register("big_green_glowshroom", BigGreenGlowshroomFeature::new);
 }

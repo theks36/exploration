@@ -1,0 +1,64 @@
+{
+  "_fv": 85,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "deadmanssickle",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Dead Man's Scythe",
+    "rarity": "UNCOMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "§7§o\"Lay waste to all that oppose you\""
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DiddyBludCT"
+      },
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 0.6,
+    "enchantability": 10,
+    "damageVsEntity": 8.0,
+    "usageCount": 1561,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:EngravedIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [
+      {
+        "equipmentSlot": "mainhand",
+        "attribute": {
+          "value": "SWEEPING_DAMAGE_RATIO"
+        },
+        "amount": 0.5,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "mainhand",
+        "attribute": {
+          "value": "ENTITY_REACH"
+        },
+        "amount": 0.75,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

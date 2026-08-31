@@ -1,50 +1,50 @@
-/give @s exploration:bone_club
-/tick freeze
-/fill ~ ~ ~ ~5 ~5 ~5 minecraft:structure_void replace #minecraft:air
-/fill ~ ~ ~ ~5 ~5 ~5 minecraft:air replace minecraft:structure_void
-/fill ~ ~ ~ ~5 ~5 ~5 minecraft:structure_void replace #minecraft:air
-/fill ~ ~ ~ ~5 ~5 ~5 minecraft:air replace minecraft:structure_void
-/fill ~ ~ ~ ~5 ~5 ~5 minecraft:structure_void replace #minecraft:air
+/tp @s 487 59 383
 /time set midnight
-/time set night
-/time add 500
-/locate biome exploration:graveyard
-/tp @s 282 75 25
-/locate biome exploration:graveyard
-/tp @s 410 107 648
-/gamemode survival
-/locate biome exploration:graveyard
-/tp @s 313 72 -441
-/gamemode survival
-/locate structure exploration:grya_mausoleum_1
-/tp @s 1040 ~ -592
-/gamemode creative
-/tp @s 1040 ~ -592
-/gamemode survival
-/locate biome exploration:graveyard
-/tp @s 172 66 263
-/data get block ~ ~ ~ LootTable
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/give @s exploration:dead_mans_shovel
-/data merge block ~ ~ ~ {LootTable:"exploration:mausoleum"}
-/locate biome exploration:graveyard
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/give @s minecraft:iron_pickaxe
-/give @s exploration:amberlined_pickaxe
-/give @s exploration:dead_mans_sickle
-/locate biome exploration:graveyard
-/tp @s -912 57 492
-/gamemode survival
-/tick rate 200
+/difficulty hard
+/time set midnight
+/tick rate 120
+/kill @a
+/kill @e
 /tick rate 20
-/gamemode creative
-/time set midnight
 /gamemode survival
-/gamemode creative
+/curios add "necklace" @s 1
+/curios list
+/curios add necklace @s 1
 /time set midnight
-/gamemode survival
-/gamemode creative
+/give @s exploration:dead_mans_amulet
+/summon minecraft:skeleton
+/summon minecraft:spider
+/time set midnight
+/give @s minecraft:bone_meal 63
+/give @s minecraft:bone_meal 64
+/time set midnight
+/locate biome exploration:mushroom_garden
+/tp @s 967 66 -250
+/effect give @s minecraft:night_vision infinite
+/locate biome exploration:mushroom_garden
+/tp @s 535 67 844
+/effect give @s minecraft:night_vision infinite
+/locate biome exploration:mushroom_garden
+/tp @s 691 66 -1043
+/locate biome exploration:mushroom_garden
+/tp @s 873 96 -790
+/effect give @s minecraft:night_vision infinite
+/locate biome exploration:mushroom_garden
+/tp @s -778 71 -1584
+/effect give @s minecraft:night_vision infinite
+/effect clear @s
+/locate biome exploration:mushroom_garden
+/tp @s 532 74 152
+/locate biome exploration:mushroom_garden
+/tp @s 758 63 -125
+/locate biome exploration:mushroom_garden
+/tp @s 1833 92 128
+/effect give @s minecraft:night_vision infinite
+/locate biome exploration:mushroom_garden
+/tp @s 671 78 288
+/locate biome exploration:mushroom_garden
+/tp @s 100 69 -7
+/locate biome exploration:mushroom_garden
+/tp @s 385 76 61
+/locate biome exploration:mushroom_garden
+/tp @s 810 67 -834

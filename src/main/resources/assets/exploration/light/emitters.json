@@ -10,5 +10,9 @@
 	"exploration:pink_luminant_crystal": "#FF67B2",
 	"exploration:purple_luminant_crystal": "#A500FF",
 	"exploration:red_luminant_crystal": "#FF0000",
-	"exploration:yellow_luminant_crystal": "#FFCC00"
+	"exploration:yellow_luminant_crystal": "#FFCC00",
+	"exploration:blue_glowshroom": "#2596BE",
+	"exploration:blue_glowshroom_block": "#2596BE",
+	"exploration:green_glowshroom": "#2CDF3C",
+	"exploration:green_glowshroom_block": "#2CDF3C"
 }

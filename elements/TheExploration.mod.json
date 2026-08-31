@@ -14,6 +14,9 @@
       },
       {
         "value": "CUSTOM:Graveyard"
+      },
+      {
+        "value": "CUSTOM:MushroomGarden"
       }
     ],
     "biomesInDimensionCaves": [

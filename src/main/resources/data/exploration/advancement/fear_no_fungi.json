@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "exploration:green_mushroom_stew"
+    },
+    "title": {
+      "translate": "advancements.fear_no_fungi.title"
+    },
+    "description": {
+      "translate": "advancements.fear_no_fungi.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fear_no_fungi_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "exploration:green_mushroom_stew"
+        }
+      }
+    },
+    "fear_no_fungi_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "exploration:lavender_mushroom_stew"
+        }
+      }
+    },
+    "fear_no_fungi_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "exploration:white_mushroom_stew"
+        }
+      }
+    },
+    "fear_no_fungi_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "exploration:yellow_mushroom_stew"
+        }
+      }
+    },
+    "fear_no_fungi_4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "exploration:orange_mushroom_stew"
+        }
+      }
+    },
+    "fear_no_fungi_5": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "exploration:blue_glowshroom_stew"
+        }
+      }
+    },
+    "fear_no_fungi_6": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "exploration:green_glowshroom_stew"
+        }
+      }
+    }
+  },
+  "parent": "exploration:mushroom_garden_a"
+}

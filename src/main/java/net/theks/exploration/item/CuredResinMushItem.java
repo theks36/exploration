@@ -7,7 +7,7 @@ import net.minecraft.world.entity.LivingEntity;
 
 public class CuredResinMushItem extends Item {
 	public CuredResinMushItem() {
-		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(7).saturationModifier(10f).build()));
+		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(5).saturationModifier(10f).build()));
 	}
 
 	@Override

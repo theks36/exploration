@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "exploration:block/lavendermushroom",
+    "particle": "exploration:block/lavendermushroom"
+  },
+  "render_type": "cutout"
+}

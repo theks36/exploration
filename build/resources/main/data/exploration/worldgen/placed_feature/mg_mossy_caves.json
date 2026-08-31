@@ -1,0 +1,39 @@
+{
+  "feature": "exploration:mg_mossy_caves",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 125
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": -128
+        },
+        "max_inclusive": {
+          "absolute": 128
+        }
+      }
+    },
+    {
+      "type": "environment_scan",
+      "direction_of_search": "up",
+      "target_condition": {
+        "type": "minecraft:solid"
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "minecraft:air"
+      },
+      "max_steps": 3
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

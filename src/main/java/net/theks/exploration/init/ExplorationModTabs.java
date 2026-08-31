@@ -154,7 +154,33 @@ public class ExplorationModTabs {
 				tabData.accept(ExplorationModItems.ENGRAVED_LEGGINGS.get());
 				tabData.accept(ExplorationModItems.ENGRAVED_BOOTS.get());
 				tabData.accept(ExplorationModBlocks.ENGRAVED_STONE_BRICKS.get().asItem());
-				tabData.accept(ExplorationModItems.DEAD_MANS_SICKLE.get());
+				tabData.accept(ExplorationModBlocks.GREEN_MUSHROOM_BLOCK.get().asItem());
+				tabData.accept(ExplorationModBlocks.GREEN_MUSHROOM.get().asItem());
+				tabData.accept(ExplorationModBlocks.LAVENDER_MUSHROOM_BLOCK.get().asItem());
+				tabData.accept(ExplorationModBlocks.LAVENDER_MUSHROOM.get().asItem());
+				tabData.accept(ExplorationModItems.LAVENDER_MUSHROOM_STEW.get());
+				tabData.accept(ExplorationModItems.GREEN_MUSHROOM_STEW.get());
+				tabData.accept(ExplorationModBlocks.WHITE_MUSHROOM_BLOCK.get().asItem());
+				tabData.accept(ExplorationModItems.DEAD_MANS_SCYTHE.get());
+				tabData.accept(ExplorationModBlocks.WHITE_MUSHROOM.get().asItem());
+				tabData.accept(ExplorationModItems.WHITE_MUSHROOM_STEW.get());
+				tabData.accept(ExplorationModBlocks.AMETHYST_ORE.get().asItem());
+				tabData.accept(ExplorationModBlocks.YELLOW_MUSHROOM_BLOCK.get().asItem());
+				tabData.accept(ExplorationModBlocks.YELLOW_MUSHROOM.get().asItem());
+				tabData.accept(ExplorationModItems.DEAD_MANS_AMULET.get());
+				tabData.accept(ExplorationModItems.YELLOW_MUSHROOM_STEW.get());
+				tabData.accept(ExplorationModBlocks.ORANGE_MUSHROOM_BLOCK.get().asItem());
+				tabData.accept(ExplorationModBlocks.ORANGE_MUSHROOM.get().asItem());
+				tabData.accept(ExplorationModItems.ORANGE_MUSHROOM_STEW.get());
+				tabData.accept(ExplorationModBlocks.PINK_MUSHROOM_BLOCK.get().asItem());
+				tabData.accept(ExplorationModBlocks.PINK_MUSHROOM.get().asItem());
+				tabData.accept(ExplorationModItems.PINK_MUSHROOM_STEW.get());
+				tabData.accept(ExplorationModBlocks.BLUE_GLOWSHROOM_BLOCK.get().asItem());
+				tabData.accept(ExplorationModBlocks.BLUE_GLOWSHROOM.get().asItem());
+				tabData.accept(ExplorationModBlocks.GREEN_GLOWSHROOM_BLOCK.get().asItem());
+				tabData.accept(ExplorationModBlocks.GREEN_GLOWSHROOM.get().asItem());
+				tabData.accept(ExplorationModItems.BLUE_GLOWSHROOM_STEW.get());
+				tabData.accept(ExplorationModItems.GREEN_GLOWSHROOM_STEW.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -190,6 +216,23 @@ public class ExplorationModTabs {
 			tabData.accept(ExplorationModBlocks.UMBRASTONE.get().asItem());
 			tabData.accept(ExplorationModBlocks.CRYSTALIZED_UMBRASTONE.get().asItem());
 			tabData.accept(ExplorationModBlocks.UNDEAD_DIRT.get().asItem());
+			tabData.accept(ExplorationModBlocks.GREEN_MUSHROOM_BLOCK.get().asItem());
+			tabData.accept(ExplorationModBlocks.GREEN_MUSHROOM.get().asItem());
+			tabData.accept(ExplorationModBlocks.LAVENDER_MUSHROOM_BLOCK.get().asItem());
+			tabData.accept(ExplorationModBlocks.LAVENDER_MUSHROOM.get().asItem());
+			tabData.accept(ExplorationModBlocks.WHITE_MUSHROOM_BLOCK.get().asItem());
+			tabData.accept(ExplorationModBlocks.WHITE_MUSHROOM.get().asItem());
+			tabData.accept(ExplorationModBlocks.AMETHYST_ORE.get().asItem());
+			tabData.accept(ExplorationModBlocks.YELLOW_MUSHROOM_BLOCK.get().asItem());
+			tabData.accept(ExplorationModBlocks.YELLOW_MUSHROOM.get().asItem());
+			tabData.accept(ExplorationModBlocks.ORANGE_MUSHROOM_BLOCK.get().asItem());
+			tabData.accept(ExplorationModBlocks.ORANGE_MUSHROOM.get().asItem());
+			tabData.accept(ExplorationModBlocks.PINK_MUSHROOM_BLOCK.get().asItem());
+			tabData.accept(ExplorationModBlocks.PINK_MUSHROOM.get().asItem());
+			tabData.accept(ExplorationModBlocks.BLUE_GLOWSHROOM_BLOCK.get().asItem());
+			tabData.accept(ExplorationModBlocks.BLUE_GLOWSHROOM.get().asItem());
+			tabData.accept(ExplorationModBlocks.GREEN_GLOWSHROOM_BLOCK.get().asItem());
+			tabData.accept(ExplorationModBlocks.GREEN_GLOWSHROOM.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(ExplorationModBlocks.STRIPPED_LEAKING_WOOD_LOG.get().asItem());
 			tabData.accept(ExplorationModBlocks.STRIPPED_LEAKING_WOOD_WOOD.get().asItem());
@@ -279,6 +322,8 @@ public class ExplorationModTabs {
 			tabData.accept(ExplorationModItems.MAMA_SPIDER_SPAWN_EGG.get());
 			tabData.accept(ExplorationModItems.CRYSTALIZED_ZOMBIE_SPAWN_EGG.get());
 			tabData.accept(ExplorationModItems.JACKO_SPAWN_EGG.get());
+			tabData.accept(ExplorationModItems.WALKER_SPAWN_EGG.get());
+			tabData.accept(ExplorationModItems.FAIRY_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(ExplorationModItems.AMBER.get());
 			tabData.accept(ExplorationModItems.RESIN_GLUE.get());
@@ -291,6 +336,15 @@ public class ExplorationModTabs {
 			tabData.accept(ExplorationModItems.ENGRAVED_INGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(ExplorationModBlocks.SERPENTINITE_PRESSURE_PLATE.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(ExplorationModItems.LAVENDER_MUSHROOM_STEW.get());
+			tabData.accept(ExplorationModItems.GREEN_MUSHROOM_STEW.get());
+			tabData.accept(ExplorationModItems.WHITE_MUSHROOM_STEW.get());
+			tabData.accept(ExplorationModItems.YELLOW_MUSHROOM_STEW.get());
+			tabData.accept(ExplorationModItems.ORANGE_MUSHROOM_STEW.get());
+			tabData.accept(ExplorationModItems.PINK_MUSHROOM_STEW.get());
+			tabData.accept(ExplorationModItems.BLUE_GLOWSHROOM_STEW.get());
+			tabData.accept(ExplorationModItems.GREEN_GLOWSHROOM_STEW.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(ExplorationModItems.AMBERLINED_SWORD.get());
 			tabData.accept(ExplorationModItems.HEMATITE_SWORD.get());
@@ -312,7 +366,8 @@ public class ExplorationModTabs {
 			tabData.accept(ExplorationModItems.ENGRAVED_CHESTPLATE.get());
 			tabData.accept(ExplorationModItems.ENGRAVED_LEGGINGS.get());
 			tabData.accept(ExplorationModItems.ENGRAVED_BOOTS.get());
-			tabData.accept(ExplorationModItems.DEAD_MANS_SICKLE.get());
+			tabData.accept(ExplorationModItems.DEAD_MANS_SCYTHE.get());
+			tabData.accept(ExplorationModItems.DEAD_MANS_AMULET.get());
 		}
 	}
 }

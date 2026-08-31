@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "exploration:block/pinkmushroom",
+    "particle": "exploration:block/pinkmushroom"
+  },
+  "render_type": "cutout"
+}

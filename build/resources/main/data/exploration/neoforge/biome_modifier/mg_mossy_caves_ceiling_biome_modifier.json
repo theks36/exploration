@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "exploration:mushroom_garden",
+  "features": "exploration:mg_mossy_caves_ceiling",
+  "step": "underground_decoration"
+}

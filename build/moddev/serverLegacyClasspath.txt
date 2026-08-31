@@ -1,4 +1,4 @@
-C:\Softwares\MCreatorWorkspaces\diddyblud\build\moddev\artifacts\neoforge-21.1.190-client-extra-aka-minecraft-resources.jar
+C:\Softwares\MCreatorWorkspaces\exploration\build\moddev\artifacts\neoforge-21.1.190-client-extra-aka-minecraft-resources.jar
 C:\Users\gr315083\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.8.2\94eee571e1524129804d08c75f6416a3be380ad4\core-3.8.2.jar
 C:\Users\gr315083\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.8.2\c128842f759692f613ea6c3ef0ef052273bbb38c\toml-3.8.2.jar
 C:\Users\gr315083\.mcreator\gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.4.10\b1d8ab82d11d92fd639b56d639f8f46f739dd5fa\oshi-core-6.4.10.jar

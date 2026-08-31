@@ -118,6 +118,24 @@ public class ExplorationModBlocks {
 	public static final DeferredBlock<Block> UMBRASTONE_SLAB;
 	public static final DeferredBlock<Block> UNDEAD_DIRT;
 	public static final DeferredBlock<Block> ENGRAVED_STONE_BRICKS;
+	public static final DeferredBlock<Block> GREEN_MUSHROOM_BLOCK;
+	public static final DeferredBlock<Block> GREEN_MUSHROOM;
+	public static final DeferredBlock<Block> LAVENDER_MUSHROOM_BLOCK;
+	public static final DeferredBlock<Block> LAVENDER_MUSHROOM;
+	public static final DeferredBlock<Block> WHITE_MUSHROOM_BLOCK;
+	public static final DeferredBlock<Block> WHITE_MUSHROOM;
+	public static final DeferredBlock<Block> AMETHYST_ORE;
+	public static final DeferredBlock<Block> FAIRY_LIGHT;
+	public static final DeferredBlock<Block> YELLOW_MUSHROOM_BLOCK;
+	public static final DeferredBlock<Block> YELLOW_MUSHROOM;
+	public static final DeferredBlock<Block> ORANGE_MUSHROOM_BLOCK;
+	public static final DeferredBlock<Block> ORANGE_MUSHROOM;
+	public static final DeferredBlock<Block> PINK_MUSHROOM_BLOCK;
+	public static final DeferredBlock<Block> PINK_MUSHROOM;
+	public static final DeferredBlock<Block> BLUE_GLOWSHROOM_BLOCK;
+	public static final DeferredBlock<Block> BLUE_GLOWSHROOM;
+	public static final DeferredBlock<Block> GREEN_GLOWSHROOM_BLOCK;
+	public static final DeferredBlock<Block> GREEN_GLOWSHROOM;
 	static {
 		LEAKING_WOOD_LOG = REGISTRY.register("leaking_wood_log", LeakingWoodLogBlock::new);
 		LEAKING_WOOD = REGISTRY.register("leaking_wood", LeakingWoodWoodBlock::new);
@@ -216,6 +234,24 @@ public class ExplorationModBlocks {
 		UMBRASTONE_SLAB = REGISTRY.register("umbrastone_slab", UmbrastoneSlabBlock::new);
 		UNDEAD_DIRT = REGISTRY.register("undead_dirt", UndeadDirtBlock::new);
 		ENGRAVED_STONE_BRICKS = REGISTRY.register("engraved_stone_bricks", EngravedStoneBricksBlock::new);
+		GREEN_MUSHROOM_BLOCK = REGISTRY.register("green_mushroom_block", GreenMushroomBlockBlock::new);
+		GREEN_MUSHROOM = REGISTRY.register("green_mushroom", GreenMushroomBlock::new);
+		LAVENDER_MUSHROOM_BLOCK = REGISTRY.register("lavender_mushroom_block", LavenderMushroomBlockBlock::new);
+		LAVENDER_MUSHROOM = REGISTRY.register("lavender_mushroom", LavenderMushroomBlock::new);
+		WHITE_MUSHROOM_BLOCK = REGISTRY.register("white_mushroom_block", WhiteMushroomBlockBlock::new);
+		WHITE_MUSHROOM = REGISTRY.register("white_mushroom", WhiteMushroomBlock::new);
+		AMETHYST_ORE = REGISTRY.register("amethyst_ore", AmethystOreBlock::new);
+		FAIRY_LIGHT = REGISTRY.register("fairy_light", FairyLightBlock::new);
+		YELLOW_MUSHROOM_BLOCK = REGISTRY.register("yellow_mushroom_block", YellowMushroomBlockBlock::new);
+		YELLOW_MUSHROOM = REGISTRY.register("yellow_mushroom", YellowMushroomBlock::new);
+		ORANGE_MUSHROOM_BLOCK = REGISTRY.register("orange_mushroom_block", OrangeMushroomBlockBlock::new);
+		ORANGE_MUSHROOM = REGISTRY.register("orange_mushroom", OrangeMushroomBlock::new);
+		PINK_MUSHROOM_BLOCK = REGISTRY.register("pink_mushroom_block", PinkMushroomBlockBlock::new);
+		PINK_MUSHROOM = REGISTRY.register("pink_mushroom", PinkMushroomBlock::new);
+		BLUE_GLOWSHROOM_BLOCK = REGISTRY.register("blue_glowshroom_block", BlueGlowshroomBlockBlock::new);
+		BLUE_GLOWSHROOM = REGISTRY.register("blue_glowshroom", BlueGlowshroomBlock::new);
+		GREEN_GLOWSHROOM_BLOCK = REGISTRY.register("green_glowshroom_block", GreenGlowshroomBlockBlock::new);
+		GREEN_GLOWSHROOM = REGISTRY.register("green_glowshroom", GreenGlowshroomBlock::new);
 	}
 
 	// Start of user code block custom blocks

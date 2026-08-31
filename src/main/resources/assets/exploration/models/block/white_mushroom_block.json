@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exploration:block/whitemushroomblock",
+    "particle": "exploration:block/whitemushroomblock"
+  },
+  "render_type": "solid"
+}

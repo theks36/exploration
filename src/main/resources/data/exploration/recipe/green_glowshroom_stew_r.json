@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "exploration:green_glowshroom"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "id": "exploration:green_glowshroom_stew",
+    "count": 1
+  }
+}

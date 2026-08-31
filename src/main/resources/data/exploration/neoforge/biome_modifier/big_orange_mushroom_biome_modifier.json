@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "exploration:mushroom_garden",
+  "features": "exploration:big_orange_mushroom",
+  "step": "vegetal_decoration"
+}

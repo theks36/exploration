@@ -4,7 +4,7 @@ license="Creative Commons Attribution-NonCommercial 4.0"
 
 [[mods]]
 modId="exploration"
-version="0.0.41"
+version="0.0.6"
 displayName="Exploration"
 displayURL="https://modrinth.com/project/exploration/"
 logoFile="logo.png"
@@ -37,6 +37,12 @@ enumExtensions="META-INF/enumextensions.json"
     side="BOTH"
 
 
+[[dependencies.exploration]]
+    modId="curios_api"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration
